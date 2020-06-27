@@ -6,7 +6,52 @@
 
 /*--------------------------------------------General*/
 /*---------------------------Hero Image*/
+.container-hero {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
 
+    position: relative;
+}
+
+.hero-image {
+    height: 100vh;
+    width: 100%;
+
+    animation-name: hero-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(1.05);
+    }
+}
+
+#hero-image-text {
+    height: 100vh;
+    width: 100%;
+
+    background-color: rgba(50, 50, 50, 0.25);
+
+    bottom: 0px;
+    right: 0px;
+
+    position: absolute;
+}
+
+#hero-image-text h2 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
 
 /*--------------------------------------------NavBar*/
 .navbar {
@@ -86,7 +131,9 @@
 
 /*--------------------------------------------Home*/
 /*---------------------------Hero Image*/
-
+.container-hero #hero-image-home {
+    background: url("https://images.unsplash.com/photo-1510024161681-8a1f66ed1a25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80") no-repeat center center;
+}
 
 /*---------------------------Calls to Action*/
 
