@@ -53,6 +53,22 @@
     text-align: center;
 }
 
+/*---------------------------Text Bubbles*/
+.t-b-rectangle-short {
+    border: solid 1px black;
+    margin: 10px 0px;
+    text-align: center;
+    height: 100px;
+    border-radius: 25px;
+}
+
+.t-b-rectangle-long {
+    border: solid 1px black;
+    margin: 10px 0px;
+    text-align: center;
+    height: 200px;
+    border-radius: 25px;
+}
 /*--------------------------------------------NavBar*/
 .navbar {
     padding: 5px 10px;
@@ -136,14 +152,26 @@
 }
 
 /*---------------------------Calls to Action*/
-
+.container-home-calls-to-action {
+    width: 75%;
+    border: solid 1px black;
+    margin: 10px auto;
+}
 
 /*---------------------------About*/
-
+.container-home-about {
+    width: 75%;
+    border: solid 1px black;
+    margin: 10px auto;
+}
 
 
 /*---------------------------Announcements*/
-
+.container-home-announcements {
+    width: 75%;
+    border: solid 1px black;
+    margin: 10px auto;
+}
 
 
 /*--------------------------------------------Footer*/
@@ -155,7 +183,6 @@
     height: 115px;
     text-align: center;
     letter-spacing: 1px;
-    margin-top: 5px;
 }
 
 .container-footer div {
@@ -192,6 +219,17 @@
 
 /*--------------------------------------------Media Queries*/
 @media (min-width: 576px) {
+    .container-hero {
+        height: 450px;
+    }
+
+    .hero-image {
+        height: 450px;
+    }
+
+    #hero-image-text {
+        height: 450px;
+    }
     .container-footer {
         height: 75px;
     }
