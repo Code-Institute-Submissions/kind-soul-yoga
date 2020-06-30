@@ -56,19 +56,33 @@
 /*---------------------------Text Bubbles*/
 .t-b-rectangle-short {
     border: solid 1px black;
-    margin: 10px 0px;
     text-align: center;
     height: 100px;
     border-radius: 25px;
+    background-color: #fff;
 }
 
 .t-b-rectangle-long {
     border: solid 1px black;
-    margin: 10px 0px;
     text-align: center;
     height: 200px;
     border-radius: 25px;
+    background-color: #fff;
 }
+
+/*---------------------------Background Colours*/
+.background-grey {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 10px 0px;
+}
+
+.background-white {
+    width: 100%;
+    background-color: #fafafa;
+    padding: 10px 0px;
+}
+
 /*--------------------------------------------NavBar*/
 .navbar {
     padding: 5px 10px;
@@ -146,33 +160,64 @@
 }
 
 /*--------------------------------------------Home*/
-/*---------------------------Hero Image*/
+/*---------------------------Home - Hero Image*/
 .container-hero #hero-image-home {
     background: url("https://images.unsplash.com/photo-1510024161681-8a1f66ed1a25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80") no-repeat center center;
 }
 
-/*---------------------------Calls to Action*/
+/*---------------------------Home - Calls to Action*/
 .container-home-calls-to-action {
-    width: 75%;
     border: solid 1px black;
-    margin: 10px auto;
+    width: 90%;
+    margin: 0 auto;
 }
 
-/*---------------------------About*/
+/*---------------------------Home - About*/
 .container-home-about {
-    width: 75%;
+    width: 90%;
     border: solid 1px black;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
+#sarah-profile-picture {
+    border: solid 1px black;
+}
 
-/*---------------------------Announcements*/
+/*---------------------------Home - Announcements*/
 .container-home-announcements {
-    width: 75%;
     border: solid 1px black;
-    margin: 10px auto;
+    width: 90%;
+    margin: 0 auto;
 }
 
+/*---------------------------Home - MQs*/
+@media (min-width: 576px) {
+    .container-home-calls-to-action {
+        height: 150px;
+    }
+
+    .container-home-about {
+        height: 300px;
+    }    
+
+    .container-home-announcements {
+        height: 150px;
+    }
+
+    .container-home-calls-to-action .t-b-rectangle-short, .container-home-announcements .t-b-rectangle-short {
+    border: solid 1px black;
+    text-align: center;
+    height: 150px;
+    border-radius: 75px;
+    }
+
+    .container-home-about .t-b-rectangle-long {
+    border: solid 1px black;
+    text-align: center;
+    height: 300px;
+    border-radius: 75px;
+    }
+}
 
 /*--------------------------------------------Book - Group*/
 /*---------------------------Hero Image*/
