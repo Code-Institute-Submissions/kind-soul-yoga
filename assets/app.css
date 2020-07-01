@@ -53,7 +53,15 @@
     text-align: center;
 }
 
-/*---------------------------Text Bubbles*/
+/*---------------------------Content Bubbles*/
+.content-bubble {
+    border: solid 4px #29d4bd;
+    background-color: #fff;
+    border-radius: 25px;
+    color: #36454f;
+    text-align: center;
+}
+
 .t-b-rectangle-short {
     border: solid 1px black;
     text-align: center;
@@ -73,7 +81,7 @@
 /*---------------------------Background Colours*/
 .background-grey {
     width: 100%;
-    background-color: #f5f5f5;
+    background-color: #cccccc;
     padding: 10px 0px;
 }
 
@@ -167,9 +175,34 @@
 
 /*---------------------------Home - Calls to Action*/
 .container-home-calls-to-action {
-    border: solid 1px black;
     width: 90%;
     margin: 0 auto;
+}
+
+.call-to-action {
+    border: solid 4px #29d4bd;
+    background-color: #95ebe0;
+    text-align: center;
+    height: 100px;
+    border-radius: 25px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.call-to-action a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.call-to-action:hover {
+    background-color: #29d4bd;
+    font-weight: 500;
+}
+
+.call-to-action a:hover {
+    text-decoration: none;
 }
 
 /*---------------------------Home - About*/
@@ -179,8 +212,16 @@
     margin: 0 auto;
 }
 
-#sarah-profile-picture {
-    border: solid 1px black;
+#home-about-sarah-picture {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: url("images/sarah-profile-picture.jpg") no-repeat center center;
+}
+
+#home-about-sarah-text {
+    height: 300px;
 }
 
 /*---------------------------Home - Announcements*/
@@ -204,11 +245,9 @@
         height: 150px;
     }
 
-    .container-home-calls-to-action .t-b-rectangle-short, .container-home-announcements .t-b-rectangle-short {
-    border: solid 1px black;
-    text-align: center;
-    height: 150px;
-    border-radius: 75px;
+    .container-home-calls-to-action .call-to-action {
+        height: 150px;
+        border-radius: 75px;
     }
 
     .container-home-about .t-b-rectangle-long {
