@@ -208,7 +208,6 @@
 /*---------------------------Home - About*/
 .container-home-about {
     width: 90%;
-    border: solid 1px black;
     margin: 0 auto;
 }
 
@@ -224,11 +223,36 @@
     height: 300px;
 }
 
-/*---------------------------Home - Announcements*/
-.container-home-announcements {
-    border: solid 1px black;
+/*---------------------------Home - Blog Posts*/
+.container-home-blog-posts {
     width: 90%;
     margin: 0 auto;
+}
+
+.blog-post-sm {
+    border: solid 4px #29d4bd;
+    background-color: #95ebe0;
+    text-align: center;
+    height: 200px;
+    border-radius: 25px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.blog-post-sm a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.blog-post-sm:hover {
+    background-color: #29d4bd;
+    font-weight: 500;
+}
+
+.blog-post-sm:hover {
+    text-decoration: none;
 }
 
 /*---------------------------Home - MQs*/
@@ -237,24 +261,23 @@
         height: 150px;
     }
 
-    .container-home-about {
-        height: 300px;
-    }    
-
-    .container-home-announcements {
-        height: 150px;
-    }
-
     .container-home-calls-to-action .call-to-action {
         height: 150px;
         border-radius: 75px;
     }
 
-    .container-home-about .t-b-rectangle-long {
-    border: solid 1px black;
-    text-align: center;
-    height: 300px;
-    border-radius: 75px;
+    .container-home-about {
+        height: 300px;
+        width: 80%;
+    }    
+
+    .container-home-blog-posts {
+        height: 300px;
+    } 
+
+    .container-home-blog-posts .blog-post-sm {
+        height: 300px;
+        border-radius: 75px;
     }
 }
 
