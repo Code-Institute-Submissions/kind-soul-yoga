@@ -9,7 +9,6 @@ ced4da - light grey*/
 /*---------------------------Hero Image*/
 .container-hero {
     height: 100vh;
-    width: 100%;
     padding: 0;
     overflow: hidden;
 
@@ -35,7 +34,7 @@ ced4da - light grey*/
     }
 }
 
-#hero-image-text {
+.hero-image-overlay {
     height: 100vh;
     width: 100%;
 
@@ -47,11 +46,13 @@ ced4da - light grey*/
     position: absolute;
 }
 
-#hero-image-text h2 {
+.hero-image-overlay h2 {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
+    padding-top: 1rem;
+    margin: 0;
 }
 
 /*---------------------------Content Bubbles*/
@@ -323,10 +324,15 @@ ced4da - light grey*/
 
 /*--------------------------------------------Contact*/
 /*---------------------------Contact Form*/
-.container-contact-form {
-    width: 75%;
+.container-hero #hero-image-contact {
+    background: url("https://images.unsplash.com/photo-1510024161681-8a1f66ed1a25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80") no-repeat center center;
+}
+
+.form-contact-form {
     margin: 10px auto;
-    padding: 0;
+    width: 75%;
+    margin: 0px auto;
+    padding: 1rem 0;
 }
 
 .form-control {
@@ -336,7 +342,7 @@ ced4da - light grey*/
 }
 
 .form-control-message {
-    height: 200px;
+    height: 50vh;
 }
 
 .form-control:focus {
@@ -363,6 +369,17 @@ ced4da - light grey*/
 
 .contact-form-button:hover {
     border: solid 2.5px #29d4bd;
+}
+
+/*---------------------------Contact Form - MQs*/
+@media (min-width: 576px) {
+    .form-contact-form {
+        width: 50%;
+    }
+
+    .form-control-message {
+    height: 25vh;
+    }    
 }
 
 /*--------------------------------------------Footer*/
@@ -418,7 +435,7 @@ ced4da - light grey*/
         height: 450px;
     }
 
-    #hero-image-text {
+    .hero-image-overlay {
         height: 450px;
     }
     .container-footer {
