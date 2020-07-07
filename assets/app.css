@@ -2,7 +2,8 @@
 /*#95ebe0 - light blue
 #29d4bd - darker blue
 #36454f - main text
-#a9bbc6 - light text*/
+#a9bbc6 - light text
+ced4da - light grey*/
 
 /*--------------------------------------------General*/
 /*---------------------------Hero Image*/
@@ -55,7 +56,7 @@
 
 /*---------------------------Content Bubbles*/
 .content-bubble {
-    border: solid 4px #29d4bd;
+    border: solid 2px #29d4bd;
     background-color: #fff;
     border-radius: 25px;
     color: #36454f;
@@ -81,7 +82,7 @@
 /*---------------------------Background Colours*/
 .background-grey {
     width: 100%;
-    background-color: #cccccc;
+    background-color: #F3F5F6;
     padding: 10px 0px;
 }
 
@@ -180,7 +181,7 @@
 }
 
 .call-to-action {
-    border: solid 4px #29d4bd;
+    border: solid 2px #29d4bd;
     background-color: #95ebe0;
     text-align: center;
     height: 100px;
@@ -230,7 +231,7 @@
 }
 
 .blog-post-sm {
-    border: solid 4px #29d4bd;
+    border: solid 2px #29d4bd;
     background-color: #95ebe0;
     text-align: center;
     height: 200px;
@@ -249,9 +250,6 @@
 .blog-post-sm:hover {
     background-color: #29d4bd;
     font-weight: 500;
-}
-
-.blog-post-sm:hover {
     text-decoration: none;
 }
 
@@ -327,8 +325,44 @@
 /*---------------------------Contact Form*/
 .container-contact-form {
     width: 75%;
-    border: solid 1px black;
     margin: 10px auto;
+    padding: 0;
+}
+
+.form-control {
+    border: solid 2px #95ebe0;
+    letter-spacing: 1.5px;
+    transition: none;
+}
+
+.form-control-message {
+    height: 200px;
+}
+
+.form-control:focus {
+    border: solid 2.5px #29d4bd;
+    box-shadow: none;
+}
+
+.form-control::-moz-placeholder {
+  color: #a9bbc6;
+  text-transform: uppercase;
+}
+.form-control:-ms-input-placeholder {
+  color: #a9bbc6;
+  text-transform: uppercase;
+}
+.form-control::-webkit-input-placeholder {
+  color: #a9bbc6;
+  text-transform: uppercase;
+}
+
+.contact-form-button {
+    text-align: center;
+}
+
+.contact-form-button:hover {
+    border: solid 2.5px #29d4bd;
 }
 
 /*--------------------------------------------Footer*/
