@@ -93,6 +93,23 @@ ced4da - light grey*/
     padding: 10px 0px;
 }
 
+/*---------------------------Scrollbar*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #F3F5F6;
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(206,212,218,0.8); 
+}
+
 /*--------------------------------------------NavBar*/
 .navbar {
     padding: 5px 10px;
@@ -329,7 +346,6 @@ ced4da - light grey*/
 }
 
 .form-contact-form {
-    margin: 10px auto;
     width: 75%;
     margin: 0px auto;
     padding: 1rem 0;
@@ -374,7 +390,7 @@ ced4da - light grey*/
 /*---------------------------Contact Form - MQs*/
 @media (min-width: 576px) {
     .form-contact-form {
-        width: 50%;
+        width: 432px;
     }
 
     .form-control-message {
