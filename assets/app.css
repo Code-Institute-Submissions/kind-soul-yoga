@@ -298,6 +298,9 @@ ced4da - light grey*/
 
 /*--------------------------------------------Book - Group*/
 /*---------------------------Hero Image*/
+.container-hero #hero-image-group {
+    background: url("https://images.unsplash.com/photo-1510024161681-8a1f66ed1a25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80") no-repeat center center;
+}
 
 /*---------------------------Calendar*/
 .container-book-group-classes {
@@ -330,16 +333,42 @@ ced4da - light grey*/
     .container-book-121-contact {
         height: 80vh;
     }
-
+}
 /*--------------------------------------------Blog*/
 /*---------------------------Hero Image*/
 .container-hero #hero-image-blog {
     background: url("https://images.unsplash.com/photo-1510024161681-8a1f66ed1a25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80") no-repeat center center;
 }
 
+.container-blog-entry {
+    width: 90%;
+    margin: 0 auto;
+}
+
 /*---------------------------Blog Entries*/
+#blog-entry-1-picture {
+    background: url("images/sarah-profile-picture.jpg") no-repeat center center;
+}
 
+#blog-entry-2-picture {
+    background: url("images/sarah-profile-picture.jpg") no-repeat center center;
+}
 
+#blog-entry-3-picture {
+    background: url("images/sarah-profile-picture.jpg") no-repeat center center;
+}
+
+#blog-entry-4-picture {
+    background: url("images/sarah-profile-picture.jpg") no-repeat center center;
+}
+
+#blog-entry-5-picture {
+    background: url("images/sarah-profile-picture.jpg") no-repeat center center;
+}
+
+#blog-entry-6-picture {
+    background: url("images/sarah-profile-picture.jpg") no-repeat center center;
+}
 
 /*--------------------------------------------Contact*/
 /*---------------------------Contact Form*/
