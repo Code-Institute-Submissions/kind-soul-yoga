@@ -64,22 +64,6 @@ ced4da - light grey*/
     text-align: center;
 }
 
-.t-b-rectangle-short {
-    border: solid 1px black;
-    text-align: center;
-    height: 100px;
-    border-radius: 25px;
-    background-color: #fff;
-}
-
-.t-b-rectangle-long {
-    border: solid 1px black;
-    text-align: center;
-    height: 200px;
-    border-radius: 25px;
-    background-color: #fff;
-}
-
 /*---------------------------Background Colours*/
 .background-grey {
     width: 100%;
@@ -231,15 +215,15 @@ ced4da - light grey*/
 }
 
 #home-about-sarah-picture {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     margin: 0 auto;
     background: url("images/sarah-profile-picture.jpg") no-repeat center center;
 }
 
 #home-about-sarah-text {
-    height: 300px;
+    height: 200px;
 }
 
 /*---------------------------Home - Blog Posts*/
@@ -274,25 +258,25 @@ ced4da - light grey*/
 /*---------------------------Home - MQs*/
 @media (min-width: 576px) {
     .container-home-calls-to-action {
-        height: 150px;
+        height: 40vh;
     }
 
     .container-home-calls-to-action .call-to-action {
-        height: 150px;
+        /* height: 150px; */
         border-radius: 75px;
     }
 
     .container-home-about {
-        height: 300px;
+        height: 40vh;
         width: 80%;
     }    
 
     .container-home-blog-posts {
-        height: 300px;
+        height: 40vh;
     } 
 
     .container-home-blog-posts .blog-post-sm {
-        height: 300px;
+        /* height: 300px; */
         border-radius: 75px;
     }
 }
@@ -314,14 +298,11 @@ ced4da - light grey*/
 }
 
 /*--------------------------------------------Book - 1-2-1*/
-/*---------------------------Hero Image*/
-
-/*---------------------------Contact Form*/
-.container-book-121-contact {
-    width: 75%;
-    border: solid 1px black;
-    margin: 10px auto;
+/*---------------------------Home - Hero Image*/
+.container-hero #hero-image-121 {
+    background: url("https://images.unsplash.com/photo-1510024161681-8a1f66ed1a25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80") no-repeat center center;
 }
+
 /*---------------------------Announcements*/
 .container-book-121-announcements {
     width: 75%;
@@ -329,15 +310,21 @@ ced4da - light grey*/
     margin: 10px auto;
 }
 
+/*---------------------------Book - 1-2-1 - MQs*/
+@media (min-width: 576px) {
+    .container-book-121-contact {
+        height: 80vh;
+    }
+
 /*--------------------------------------------Blog*/
 /*---------------------------Hero Image*/
-
-/*---------------------------Announcements*/
-.container-blog-announcements {
-    width: 75%;
-    border: solid 1px black;
-    margin: 10px auto;
+.container-hero #hero-image-blog {
+    background: url("https://images.unsplash.com/photo-1510024161681-8a1f66ed1a25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80") no-repeat center center;
 }
+
+/*---------------------------Blog Entries*/
+
+
 
 /*--------------------------------------------Contact*/
 /*---------------------------Contact Form*/
@@ -443,17 +430,10 @@ ced4da - light grey*/
 
 /*--------------------------------------------Media Queries*/
 @media (min-width: 576px) {
-    .container-hero {
-        height: 450px;
+    .container-hero, .hero-image, .hero-image-overlay {
+        height: 80vh;
     }
 
-    .hero-image {
-        height: 450px;
-    }
-
-    .hero-image-overlay {
-        height: 450px;
-    }
     .container-footer {
         height: 75px;
     }
@@ -470,10 +450,6 @@ ced4da - light grey*/
 }
 
 @media (min-width: 992px) {
-    .container-footer {
-        height: 25px;
-    }
-
     .nav-item {
         padding: 0px 25px;
     }
