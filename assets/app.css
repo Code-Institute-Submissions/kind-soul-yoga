@@ -64,6 +64,29 @@ ced4da - light grey*/
     text-align: center;
 }
 
+.content-bubble-circle-picture {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.content-bubble-long-text {
+    margin: 0 auto;
+}
+
+/*---------------------------Content Bubbles - MQs*/
+@media (min-width: 576px) {
+    .content-bubble-circle-picture {
+            height: 220px;
+            width: 220px;
+        }
+        
+    .content-bubble-long-text {
+            height: 220px;
+    }
+}
+
 /*---------------------------Background Colours*/
 .background-grey {
     width: 100%;
@@ -215,15 +238,7 @@ ced4da - light grey*/
 }
 
 #home-about-sarah-picture {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    margin: 0 auto;
     background: url("images/sarah-profile-picture.jpg") no-repeat center center;
-}
-
-#home-about-sarah-text {
-    height: 200px;
 }
 
 /*---------------------------Home - Blog Posts*/
@@ -269,7 +284,7 @@ ced4da - light grey*/
     .container-home-about {
         height: 40vh;
         width: 80%;
-    }    
+    }
 
     .container-home-blog-posts {
         height: 40vh;
