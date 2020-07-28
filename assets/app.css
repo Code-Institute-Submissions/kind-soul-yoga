@@ -205,30 +205,36 @@ ced4da - light grey*/
     margin: 0 auto;
 }
 
-.call-to-action {
-    border: solid 2px #29d4bd;
-    background-color: #95ebe0;
-    text-align: center;
-    height: 100px;
+.call-to-action-circle-picture {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.call-to-action-title {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #a9bbc6;
+}
+
+.btn-outline-primary {
+	border: none;
+    background-color: #fff;
     border-radius: 25px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #95ebe0;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 
-.call-to-action a {
-    color: #fff;
-    text-transform: uppercase;
-}
-
-.call-to-action:hover {
-    background-color: #29d4bd;
-    font-weight: 500;
-}
-
-.call-to-action a:hover {
-    text-decoration: none;
+.btn-outline-primary:hover {
+    background: #29d4bd;
 }
 
 /*---------------------------Home - About*/
