@@ -49,10 +49,20 @@ ced4da - light grey*/
 .hero-image-overlay h2 {
     color: #fff;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 7px;
     text-align: center;
-    padding-top: 1rem;
-    margin: 0;
+    font-size: 40px;
+
+    top: 25%;
+
+    position: relative;
+}
+
+/*---------------------------Hero Image - MQs*/
+@media (min-width: 576px) {
+    .container-hero, .hero-image, .hero-image-overlay {
+        height: 80vh;
+    }
 }
 
 /*---------------------------Content Bubbles*/
@@ -480,9 +490,9 @@ ced4da - light grey*/
 
 /*--------------------------------------------Media Queries*/
 @media (min-width: 576px) {
-    .container-hero, .hero-image, .hero-image-overlay {
+    /* .container-hero, .hero-image, .hero-image-overlay {
         height: 80vh;
-    }
+    } */
 
     .container-footer {
         height: 75px;
