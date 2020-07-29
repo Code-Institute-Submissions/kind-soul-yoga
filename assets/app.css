@@ -51,9 +51,9 @@ ced4da - light grey*/
     text-transform: uppercase;
     letter-spacing: 7px;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5em;
 
-    top: 25%;
+    top: 30%;
 
     position: relative;
 }
@@ -62,6 +62,11 @@ ced4da - light grey*/
 @media (min-width: 576px) {
     .container-hero, .hero-image, .hero-image-overlay {
         height: 80vh;
+    }
+
+    .hero-image-overlay h2 {
+        letter-spacing: 12px;
+        font-size: 3em;
     }
 }
 
@@ -97,7 +102,7 @@ ced4da - light grey*/
     }
 }
 
-/*---------------------------Background Colours*/
+/*---------------------------Sections*/
 .background-grey {
     width: 100%;
     background-color: #F3F5F6;
@@ -108,6 +113,11 @@ ced4da - light grey*/
     width: 100%;
     background-color: #fafafa;
     padding: 10px 0px;
+}
+
+.container-section {
+    width: 90%;
+    margin: 0 auto;
 }
 
 /*---------------------------Scrollbar*/
@@ -210,10 +220,10 @@ ced4da - light grey*/
 }
 
 /*---------------------------Home - Calls to Action*/
-.container-home-calls-to-action {
+/* .container-home-calls-to-action {
     width: 90%;
     margin: 0 auto;
-}
+} */
 
 .call-to-action-circle-picture {
     height: 150px;
@@ -248,20 +258,20 @@ ced4da - light grey*/
 }
 
 /*---------------------------Home - About*/
-.container-home-about {
+/* .container-home-about {
     width: 90%;
     margin: 0 auto;
-}
+} */
 
 #home-about-sarah-picture {
     background: url("images/sarah-profile-picture.jpg") no-repeat center center;
 }
 
 /*---------------------------Home - Blog Posts*/
-.container-home-blog-posts {
+/* .container-home-blog-posts {
     width: 90%;
     margin: 0 auto;
-}
+} */
 
 .blog-post-sm {
     border: solid 2px #29d4bd;
