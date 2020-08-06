@@ -86,18 +86,25 @@ ced4da - light grey*/
     margin: 0 auto;
 }
 
-.content-bubble-long-text {
+.content-bubble-text {
+    color: #36454f;
+    text-align: center;
     margin: 0 auto;
 }
 
 /*---------------------------Content Bubbles - MQs*/
 @media (min-width: 576px) {
+
+    .content-bubble {
+        height: 100%;
+    }
+
     .content-bubble-circle-picture {
             height: 220px;
             width: 220px;
         }
         
-    .content-bubble-long-text {
+    .content-bubble-text {
             height: 220px;
     }
 }
@@ -118,6 +125,17 @@ ced4da - light grey*/
 .container-section {
     width: 90%;
     margin: 0 auto;
+}
+
+/*---------------------------Sections - MQs*/
+@media (min-width: 576px) {
+    .container-section {
+        height: 40vh;
+    }
+
+    .row {
+        height: 100%;
+    }
 }
 
 /*---------------------------Scrollbar*/
@@ -220,11 +238,6 @@ ced4da - light grey*/
 }
 
 /*---------------------------Home - Calls to Action*/
-/* .container-home-calls-to-action {
-    width: 90%;
-    margin: 0 auto;
-} */
-
 .call-to-action-circle-picture {
     height: 150px;
     width: 150px;
@@ -235,7 +248,18 @@ ced4da - light grey*/
 .call-to-action-title {
     letter-spacing: 1.5px;
     text-transform: uppercase;
+    font-size: 1.75em;
+    font-weight: 300;
+    padding: 0 0.5rem;
     color: #a9bbc6;
+}
+
+.call-to-action-title-2 {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 1.75em;
+    padding: 0 0.5rem;
+    color: #36454f;
 }
 
 .btn-outline-primary {
@@ -257,22 +281,19 @@ ced4da - light grey*/
     background: #29d4bd;
 }
 
-/*---------------------------Home - About*/
-/* .container-home-about {
-    width: 90%;
-    margin: 0 auto;
-} */
+.btn-outline-primary-large {
+	height: 64px;
+    border-radius: 32px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
 
+/*---------------------------Home - About*/
 #home-about-sarah-picture {
     background: url("images/sarah-profile-picture.jpg") no-repeat center center;
 }
 
 /*---------------------------Home - Blog Posts*/
-/* .container-home-blog-posts {
-    width: 90%;
-    margin: 0 auto;
-} */
-
 .blog-post-sm {
     border: solid 2px #29d4bd;
     background-color: #95ebe0;
@@ -329,6 +350,21 @@ ced4da - light grey*/
 }
 
 /*---------------------------Calendar*/
+.book-group-classes-icons {
+    margin: 0;
+}
+
+.book-group-classes-icons .list-inline-item i {
+    width: 64px;
+    height: 64px;
+    padding: 14px 0;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    background: #95ebe0;
+}
+
 .container-book-group-classes {
     width: 75%;
     border: solid 1px black;
