@@ -75,8 +75,22 @@ ced4da - light grey*/
     border: solid 2px #29d4bd;
     background-color: #fff;
     border-radius: 25px;
-    color: #36454f;
     text-align: center;
+}
+
+.content-bubble-no-border {
+    border: none;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.content-bubble-text {
+    color: #36454f;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    padding: 0.75em;
 }
 
 .img-container-circle-sm {
@@ -87,23 +101,63 @@ ced4da - light grey*/
 }
 
 .img-container-circle-lg {
-    height: 280px;
-    width: 280px;
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
     margin: 0 auto;
 }
 
-.content-bubble-circle-picture {
-    height: 280px;
-    width: 280px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-.content-bubble-text {
+.h2-title-1 {
     color: #36454f;
+    text-transform: uppercase;
+    letter-spacing: 7px;
     text-align: center;
-    margin: 0 auto;
+    font-size: 2.5em;
+}
+
+
+.h3-title-1 {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 1.75em;
+    font-weight: 300;
+    padding: 0 0.5rem;
+    color: #a9bbc6;
+}
+
+.h3-title-2 {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 1.75em;
+    padding: 0 0.5rem;
+    color: #36454f;
+}
+
+.btn-outline-primary {
+	border: none;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #95ebe0;
+    width: 150px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.btn-outline-primary:hover {
+    background: #29d4bd;
+}
+
+.btn-outline-primary-large {
+	height: 64px;
+    border-radius: 32px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
 }
 
 /*---------------------------Content Bubbles - MQs*/
@@ -282,53 +336,12 @@ ced4da - light grey*/
     border-radius: 50%;
 }
 
-.call-to-action-title {
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    font-size: 1.75em;
-    font-weight: 300;
-    padding: 0 0.5rem;
-    color: #a9bbc6;
-}
-
-.call-to-action-title-2 {
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    font-size: 1.75em;
-    padding: 0 0.5rem;
-    color: #36454f;
-}
-
-.btn-outline-primary {
-	border: none;
-    background-color: #fff;
-    border-radius: 25px;
-    text-align: center;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #fff;
-    background: #95ebe0;
-    width: 125px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.btn-outline-primary:hover {
-    background: #29d4bd;
-}
-
-.btn-outline-primary-large {
-	height: 64px;
-    border-radius: 32px;
-    font-size: 20px;
-    letter-spacing: 1.5px;
-}
-
 /*---------------------------Home - About*/
 #home-about-sarah-picture {
-    background: url("images/sarah-profile-picture.jpg") no-repeat center center;
+    background: url("./images/home-about-profile.jpg");
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     border-radius: 50%;
 }
