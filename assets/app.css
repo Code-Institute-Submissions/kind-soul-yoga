@@ -115,7 +115,6 @@ ced4da - light grey*/
     font-size: 2.5em;
 }
 
-
 .h3-title-1 {
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -301,7 +300,7 @@ ced4da - light grey*/
 
 /*--------------------------------------------Home*/
 /*---------------------------Home - Hero Image*/
-.container-hero #hero-image-home {
+#hero-image-home {
     background: url("./images/hero-image-home.jpg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
@@ -402,8 +401,11 @@ ced4da - light grey*/
 
 /*--------------------------------------------Book - Group*/
 /*---------------------------Hero Image*/
-.container-hero #hero-image-group {
-    background: url("https://images.unsplash.com/photo-1510024161681-8a1f66ed1a25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80") no-repeat center center;
+#hero-image-group {
+    background: url("./images/hero-image-group.jpg");
+    background-position: 50% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*---------------------------Calendar*/
