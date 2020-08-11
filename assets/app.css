@@ -347,27 +347,31 @@ ced4da - light grey*/
 }
 
 /*---------------------------Home - Blog Posts*/
-.blog-post-sm {
-    border: solid 2px #29d4bd;
-    background-color: #95ebe0;
-    text-align: center;
-    height: 200px;
-    border-radius: 25px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+#home-blog-picture-1 {
+    background: url("./images/home-blog-1.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
 }
 
-.blog-post-sm a {
-    color: #fff;
-    text-transform: uppercase;
+#home-blog-picture-2 {
+    background: url("./images/home-blog-2.jpg");
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
 }
 
-.blog-post-sm:hover {
-    background-color: #29d4bd;
-    font-weight: 500;
-    text-decoration: none;
+#home-blog-picture-3 {
+    background: url("./images/home-blog-3.jpg");
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
 }
 
 /*---------------------------Home - MQs*/
