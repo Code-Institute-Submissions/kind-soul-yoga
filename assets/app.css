@@ -63,9 +63,9 @@ ced4da - light grey*/
 
 /*----------Sections - MQs*/
 @media (min-width: 576px) {
-    .container-section {
+    /* .container-section {
         height: 40vh;
-    }
+    } */
 
     .row {
         height: 100%;
@@ -221,6 +221,14 @@ ced4da - light grey*/
     font-size: 1.75em;
     padding: 0 0.5rem;
     color: #36454f;
+}
+
+
+/*----------Headings - MQs*/
+@media (min-width: 576px) {
+    .h3-title-sm-shrink {
+        font-size: 1.35em;
+    }
 }
 /*<///------------------------General - Headings>*/
 
@@ -511,33 +519,6 @@ ced4da - light grey*/
     background-size: cover;
     height: 100%;
     border-radius: 50%;
-}
-
-
-/*----------Home - MQs*/
-@media (min-width: 576px) {
-    .container-home-calls-to-action {
-        height: 40vh;
-    }
-
-    .container-home-calls-to-action .call-to-action {
-        /* height: 150px; */
-        border-radius: 75px;
-    }
-
-    .container-home-about {
-        height: 40vh;
-        width: 80%;
-    }
-
-    .container-home-blog-posts {
-        height: 40vh;
-    } 
-
-    .container-home-blog-posts .blog-post-sm {
-        /* height: 300px; */
-        border-radius: 75px;
-    }
 }
 /*<///-----------------------------------------Home>*/
 
