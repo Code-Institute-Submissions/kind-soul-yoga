@@ -58,6 +58,8 @@ ced4da - light grey*/
     position: relative;
 }
 
+
+
 /*---------------------------Hero Image - MQs*/
 @media (min-width: 576px) {
     .container-hero, .hero-image, .hero-image-overlay {
@@ -113,6 +115,12 @@ ced4da - light grey*/
     letter-spacing: 7px;
     text-align: center;
     font-size: 2.5em;
+}
+
+.h2-title-border {
+    border-top: solid 2px #36454f;
+    border-bottom: solid 2px #36454f;
+    line-height: 60px;
 }
 
 .h3-title-1 {
@@ -180,13 +188,13 @@ ced4da - light grey*/
 .background-grey {
     width: 100%;
     background-color: #F3F5F6;
-    padding: 10px 0px;
+    padding: 0;
 }
 
 .background-white {
     width: 100%;
     background-color: #fafafa;
-    padding: 10px 0px;
+    padding: 0;
 }
 
 .container-section {
@@ -440,7 +448,7 @@ ced4da - light grey*/
 /*---------------------------Home - Hero Image*/
 #hero-image-121 {
     background: url("./images/hero-image-121.jpg");
-    background-position: 50% 35%;
+    background-position: 52.5% 35%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -460,8 +468,11 @@ ced4da - light grey*/
 }
 /*--------------------------------------------Blog*/
 /*---------------------------Hero Image*/
-.container-hero #hero-image-blog {
-    background: url("https://images.unsplash.com/photo-1510024161681-8a1f66ed1a25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80") no-repeat center center;
+#hero-image-blog {
+    background: url("./images/hero-image-blog.jpg");
+    background-position: 40% 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container-blog-entry {
@@ -496,14 +507,45 @@ ced4da - light grey*/
 
 /*--------------------------------------------Contact*/
 /*---------------------------Contact Form*/
-.container-hero #hero-image-contact {
-    background: url("https://images.unsplash.com/photo-1510024161681-8a1f66ed1a25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80") no-repeat center center;
+#hero-image-contact {
+    background: url("./images/hero-image-contact.jpg");
+    background-position: 42.5% 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image-overlay-contact {
+    height: 100vh;
+    width: 100%;
+
+    background-color: rgba(50, 50, 50, 0.25);
+
+    bottom: 0px;
+    right: 0px;
+
+    position: absolute;
+}
+
+.hero-image-overlay-contact h2 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    text-align: center;
+    font-size: 2.5em;
+
+    top: 12.5%;
+
+    position: relative;
 }
 
 .form-contact-form {
     width: 75%;
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 1rem 0;
+
+    top: 12.5%;
+
+    position: relative;
 }
 
 .form-control {
