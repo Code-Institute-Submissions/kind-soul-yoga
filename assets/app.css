@@ -79,6 +79,20 @@ ced4da - light grey*/
     text-align: center;
 }
 
+.img-container-circle-sm {
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.img-container-circle-lg {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
 .content-bubble-circle-picture {
     height: 280px;
     width: 280px;
@@ -234,15 +248,38 @@ ced4da - light grey*/
 /*--------------------------------------------Home*/
 /*---------------------------Home - Hero Image*/
 .container-hero #hero-image-home {
-    background: url("https://images.unsplash.com/photo-1510024161681-8a1f66ed1a25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80") no-repeat center center;
+    background: url("./images/hero-image-home.jpg");
+    background-position: 50% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*---------------------------Home - Calls to Action*/
-.call-to-action-circle-picture {
-    height: 150px;
-    width: 150px;
+#home-cta-group-classes-picture {
+    background: url("./images/home-cta-1.jpg");
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
     border-radius: 50%;
-    margin: 0 auto;
+}
+
+#home-cta-1-2-1-classes-picture {
+    background: url("./images/home-cta-2.jpg");
+    background-position: 30% 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#home-cta-blog-picture {
+    background: url("./images/home-cta-3.jpg");
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
 }
 
 .call-to-action-title {
@@ -271,6 +308,7 @@ ced4da - light grey*/
     text-transform: uppercase;
     color: #fff;
     background: #95ebe0;
+    width: 125px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -291,6 +329,8 @@ ced4da - light grey*/
 /*---------------------------Home - About*/
 #home-about-sarah-picture {
     background: url("images/sarah-profile-picture.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
 
 /*---------------------------Home - Blog Posts*/
