@@ -44,6 +44,10 @@ ced4da - light grey*/
     letter-spacing: 0.5px;
     font-weight: 300;
     padding: 0.75em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 .img-container-circle-sm {
@@ -62,28 +66,8 @@ ced4da - light grey*/
 
 
 /*----------Sections - MQs*/
-@media (min-width: 576px) {
-    /* .container-section {
-        height: 40vh;
-    } */
 
-    .row {
-        height: 100%;
-    }
 
-    .content-bubble {
-        height: 100%;
-    }
-
-    .content-bubble-circle-picture {
-            height: 220px;
-            width: 220px;
-        }
-        
-    .content-bubble-text {
-            height: 220px;
-    }
-}
 /*<///------------------------General - Sections>*/
 
 /*<---------------------------General - Scrollbar>*/
@@ -213,6 +197,10 @@ ced4da - light grey*/
     font-weight: 300;
     padding: 0 0.5rem;
     color: #a9bbc6;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 .h3-title-2 {
@@ -221,13 +209,24 @@ ced4da - light grey*/
     font-size: 1.75em;
     padding: 0 0.5rem;
     color: #36454f;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 
 /*----------Headings - MQs*/
-@media (min-width: 576px) {
+@media (min-width: 768px) {
     .h3-title-sm-shrink {
         font-size: 1.35em;
+        height: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .h3-title-sm-shrink {
+        height: 75px;
     }
 }
 /*<///------------------------General - Headings>*/
@@ -380,7 +379,7 @@ ced4da - light grey*/
     text-transform: uppercase;
     color: #fff;
     background-color: #95ebe0;
-    font-size: 1rem;
+    font-size: 1em;
     height: 115px;
     text-align: center;
     letter-spacing: 1px;
@@ -427,16 +426,20 @@ ced4da - light grey*/
 }
 
 @media (min-width: 768px) {
-    .container-footer {
-        height: 75px;
-    }
-
     .nav-item {
         padding: 0px 15px;
     }
 }
 
 @media (min-width: 992px) {
+    .container-footer {
+        height: 40px;
+    }
+
+    .container-footer div {
+        line-height: 40px;
+    }
+    
     .nav-item {
         padding: 0px 25px;
     }
@@ -491,6 +494,23 @@ ced4da - light grey*/
     background-size: cover;
     height: 100%;
     border-radius: 50%;
+}
+
+#home-about-sarah-picture-2 {
+    background: url("./images/home-about-profile-2.jpg");
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+/*----------Home - About - MQs*/
+@media (min-width: 768px) {
+    #content-bubble-text-home-about {
+        height: 250px;
+    }
 }
 
 /*---------------------------Home - Blog Posts*/
