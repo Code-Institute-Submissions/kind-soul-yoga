@@ -132,14 +132,10 @@ ced4da - light grey*/
     letter-spacing: 1.5px;
 }
 
-.form-contact-form {
+.form-general-form {
     width: 75%;
     margin: 0 auto;
     padding: 1rem 0;
-
-    top: 12.5%;
-
-    position: relative;
 }
 
 .form-control {
@@ -170,18 +166,18 @@ ced4da - light grey*/
   text-transform: uppercase;
 }
 
-.contact-form-button {
+.form-button {
     text-align: center;
 }
 
-.contact-form-button:hover {
+.form-button:hover {
     border: solid 2.5px #29d4bd;
 }
 
 
 /*----------Components - MQs*/
 @media (min-width: 576px) {
-    .form-contact-form {
+    .form-general-form {
         width: 432px;
     }
 
@@ -651,9 +647,21 @@ ced4da - light grey*/
 
 
 /*----------Book - 1-2-1 - MQs*/
-@media (min-width: 576px) {
-    .container-book-121-contact {
-        height: 80vh;
+@media (min-width: 768px) {
+    #hero-image-121 {
+        background: url("./images/hero-image-121.jpg");
+        background-position: 52.5% 60%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 992px) {
+    #hero-image-121 {
+        background: url("./images/hero-image-121.jpg");
+        background-position: 10% 80%;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 /*<///-----------------------------------------Book - 1-2-1>*/
@@ -706,6 +714,23 @@ ced4da - light grey*/
     background-size: cover;
 }
 
+.container-hero-contact {
+    height: 100vh;
+    padding: 0;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.hero-image-contact {
+    height: 100vh;
+    width: 100%;
+
+    animation-name: hero-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
 .hero-image-overlay-contact {
     height: 100vh;
     width: 100%;
@@ -725,7 +750,13 @@ ced4da - light grey*/
     text-align: center;
     font-size: 2.5em;
 
-    top: 12.5%;
+    top: 15%;
+
+    position: relative;
+}
+
+.form-contact-form {
+    top: 15%;
 
     position: relative;
 }
