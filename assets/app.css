@@ -57,6 +57,13 @@ ced4da - light grey*/
     margin: 0 auto;
 }
 
+.img-container-circle-md {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
 .img-container-circle-lg {
     height: 350px;
     width: 350px;
@@ -66,8 +73,17 @@ ced4da - light grey*/
 
 
 /*----------Sections - MQs*/
+@media (min-width: 768px) {
+    .container-section-grow-md {
+        width: 95%;
+    }
+}
 
-
+@media (min-width: 992px) {
+    .container-section-shrink-lg {
+        width: 85%;
+    }
+}
 /*<///------------------------General - Sections>*/
 
 /*<---------------------------General - Scrollbar>*/
@@ -548,7 +564,7 @@ ced4da - light grey*/
 /*---------------------------Book - Group - Hero Image*/
 #hero-image-group {
     background: url("./images/hero-image-group.jpg");
-    background-position: 50% 35%;
+    background-position: 30% 50%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -569,10 +585,56 @@ ced4da - light grey*/
     background: #95ebe0;
 }
 
-.container-book-group-classes {
-    width: 75%;
-    border: solid 1px black;
-    margin: 10px auto;
+#book-group-classes-picture-1 {
+    background: url("./images/home-blog-1.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#book-group-classes-picture-2 {
+    background: url("./images/home-cta-1.jpg");
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#book-group-classes-picture-3 {
+    background: url("./images/home-blog-2.jpg");
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#book-group-classes-picture-4 {
+    background: url("./images/home-cta-3.jpg");
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#book-group-classes-picture-5 {
+    background: url("./images/home-blog-3.jpg");
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/*----------Book - Group - MQs*/
+@media (min-width: 768px) {
+    .book-group-schedule-description {
+        height: 80px;
+    }
 }
 /*<///-----------------------------------------Book - Group>*/
 
