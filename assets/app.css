@@ -38,6 +38,13 @@ ced4da - light grey*/
     text-align: center;
 }
 
+.content-bubble-grey-border {
+    border: rgb(169,187,198,0.25) solid 0.5px;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+}
+
 .content-bubble-text {
     color: #36454f;
     font-size: 1.1em;
@@ -213,6 +220,7 @@ ced4da - light grey*/
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .h3-title-2 {
@@ -225,8 +233,21 @@ ced4da - light grey*/
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
+.h3-title-1-border {
+    border-top: solid 0.5px #a9bbc6;
+    border-bottom: solid 0.5px #a9bbc6;
+    line-height: 40px;
+}
+
+.h3-title-2-border {
+    border-top: solid 0.5px #36454f;
+    border-bottom: solid 0.5px #36454f;
+    line-height: 40px;
+    font-weight: 300;
+}
 
 /*----------Headings - MQs*/
 @media (min-width: 768px) {
@@ -526,7 +547,7 @@ ced4da - light grey*/
 }
 
 /*---------------------------Home - Blog Posts*/
-#home-blog-picture-1 {
+#home-blog-1-picture {
     background: url("./images/home-blog-1.jpg");
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -627,9 +648,10 @@ ced4da - light grey*/
 }
 
 /*----------Book - Group - MQs*/
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .book-group-schedule-description {
-        height: 80px;
+        width: 500px;
+        margin: 0 auto;
     }
 }
 /*<///-----------------------------------------Book - Group>*/
@@ -678,12 +700,40 @@ ced4da - light grey*/
 }
 
 /*---------------------------Blog - Posts*/
-#blog-entry-1-picture {
-    background: url("images/sarah-profile-picture.jpg") no-repeat center center;
+#blog-entry-1-picture-1 {
+    background: url("./images/home-blog-3.jpg");
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#blog-entry-1-picture-2 {
+    background: url("./images/home-blog-3.jpg");
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#blog-entry-1-picture-3 {
+    background: url("./images/home-blog-3.jpg");
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
 }
 
 #blog-entry-2-picture {
-    background: url("images/sarah-profile-picture.jpg") no-repeat center center;
+    background: url("./images/home-blog-3.jpg");
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
 }
 
 #blog-entry-3-picture {
