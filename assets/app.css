@@ -693,6 +693,34 @@ ced4da - light grey*/
     background-size: cover;
 }
 
+/*---------------------------Book - 1-2-1 - Testimonials*/
+#book-1-2-1-testimonial-picture-1 {
+    background: url("./images/home-cta-1.jpg");
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#book-1-2-1-testimonial-picture-2 {
+    background: url("./images/home-cta-2.jpg");
+    background-position: 30% 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#book-1-2-1-testimonial-picture-3 {
+    background: url("./images/home-cta-3.jpg");
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
 
 /*----------Book - 1-2-1 - MQs*/
 @media (min-width: 768px) {
