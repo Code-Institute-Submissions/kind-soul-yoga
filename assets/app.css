@@ -630,7 +630,7 @@ ced4da - light grey*/
 
 #book-group-classes-picture-1 {
     background: url("./images/home-cta-1.jpg");
-    background-position: 50% 50%;
+    background-position: 50% 80%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -648,7 +648,7 @@ ced4da - light grey*/
 
 #book-group-classes-picture-3 {
     background: url("./images/home-cta-2.jpg");
-    background-position: 50% 75%;
+    background-position: 30% 45%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -666,7 +666,7 @@ ced4da - light grey*/
 
 #book-group-classes-picture-5 {
     background: url("./images/home-cta-3.jpg");
-    background-position: 0% 70%;
+    background-position: 50% 75%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
