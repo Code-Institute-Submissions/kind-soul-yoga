@@ -145,6 +145,12 @@ ced4da - light grey*/
     letter-spacing: 1.5px;
 }
 
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    background: #29d4bd !important;
+}
+
 .form-general-form {
     width: 75%;
     margin: 0 auto;
