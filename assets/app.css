@@ -318,10 +318,15 @@ ced4da - light grey*/
     background-color: #fff;
     font-size: 1.25rem;
     letter-spacing: 2px;
+    border-bottom: rgba(169,187,198,0.25) 1px solid;
 }
 
 .navbar-light .navbar-toggler {
     border: none;
+}
+
+.navbar-light .navbar-toggler:focus {
+    outline: none;
 }
 
 #navbar-custom-icon {
@@ -944,13 +949,13 @@ ced4da - light grey*/
     text-align: center;
     font-size: 2.5em;
 
-    top: 15%;
+    top: 25%;
 
     position: relative;
 }
 
 .form-contact-form {
-    top: 15%;
+    top: 25%;
 
     width: 75%;
 
