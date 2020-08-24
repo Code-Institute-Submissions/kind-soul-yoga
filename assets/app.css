@@ -24,6 +24,10 @@ ced4da - light grey*/
     margin: 0 auto;
 }
 
+.container-section-no-padding {
+    padding: 0;
+}
+
 .content-bubble {
     border: solid 2px #29d4bd;
     background-color: #fff;
@@ -86,6 +90,17 @@ ced4da - light grey*/
 }
 
 /*----------Sections - MQs*/
+@media (max-width: 576px) {
+    .img-container-circle-lg {
+        height: 300px;
+        width: 300px;
+    }
+
+    .img-container-box-lg {
+        height: 400px;
+    }
+}
+
 @media (min-width: 768px) {
     .container-section-grow-md {
         width: 95%;
@@ -152,7 +167,7 @@ ced4da - light grey*/
 }
 
 .form-general-form {
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
     padding: 1rem 0;
 }
@@ -742,6 +757,14 @@ ced4da - light grey*/
     border-radius: 50%;
 }
 
+.book-1-2-1-testimonial-text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 
 /*----------Book - 1-2-1 - MQs*/
 @media (min-width: 768px) {
@@ -751,6 +774,10 @@ ced4da - light grey*/
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .book-1-2-1-testimonial-text {
+        height: 250px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -759,6 +786,10 @@ ced4da - light grey*/
         background-position: 10% 80%;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .book-1-2-1-testimonial-text {
+        height: 185px;
     }
 }
 /*<///-----------------------------------------Book - 1-2-1>*/
@@ -831,7 +862,7 @@ ced4da - light grey*/
 
 #blog-entry-5-picture-1 {
     background: url("./images/blog-entry-5-picture-1.jpg");
-    background-position: 0% 70%;
+    background-position: 25% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -921,6 +952,16 @@ ced4da - light grey*/
 .form-contact-form {
     top: 15%;
 
+    width: 75%;
+
     position: relative;
+}
+
+
+/*----------Contact - MQs*/
+@media (min-width: 576px) {
+    .form-contact-form {
+        width: 432px;
+    }    
 }
 /*<///-----------------------------------------Contact>*/
