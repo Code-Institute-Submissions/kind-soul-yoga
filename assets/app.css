@@ -335,6 +335,21 @@ ced4da - light grey*/
     color: #29d4bd;
 }
 
+.dropdown-menu .active {
+    color: #29d4bd;
+    background-color: rgba(255,255,255,0.01);
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #29d4bd;
+    background: rgba(255,255,255,0.01);
+}
+
+.dropdown-menu .dropdown-item:focus {
+    color: #fff !important;
+    background: #29d4bd !important;
+}
+
 .navbar-light .navbar-nav .nav-link:hover, #navbarDropdownMenuLink:hover {
     color: #29d4bd;
 }
