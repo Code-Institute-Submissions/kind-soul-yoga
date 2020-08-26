@@ -5,6 +5,13 @@
 #a9bbc6 - light text
 ced4da - light grey*/
 
+/*--------------------------------------------Font*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 /*<--------------------------------------------General>*/
 /*<---------------------------General - Sections>*/
 .background-grey {
@@ -228,6 +235,7 @@ ced4da - light grey*/
     letter-spacing: 7px;
     text-align: center;
     font-size: 2.5em;
+    font-weight: 500;
 }
 
 .h2-title-border {
@@ -454,8 +462,9 @@ ced4da - light grey*/
     letter-spacing: 7px;
     text-align: center;
     font-size: 2.5em;
+    font-weight: 500;
 
-    top: 30%;
+    top: 50%;
 
     position: relative;
 }
@@ -948,14 +957,15 @@ ced4da - light grey*/
     letter-spacing: 7px;
     text-align: center;
     font-size: 2.5em;
+    font-weight: 500;
 
-    top: 25%;
+    top: 30%;
 
     position: relative;
 }
 
 .form-contact-form {
-    top: 25%;
+    top: 30%;
 
     width: 75%;
 
