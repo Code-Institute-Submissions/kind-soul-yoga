@@ -464,7 +464,7 @@ body {
     font-size: 2.5em;
     font-weight: 500;
 
-    top: 50%;
+    top: 40%;
 
     position: relative;
 }
@@ -562,7 +562,7 @@ body {
 /*---------------------------Home - Hero Image*/
 #hero-image-home {
     background: url("./images/hero-image-home.jpg");
-    background-position: 50% 35%;
+    background-position: 50% 85%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -959,13 +959,13 @@ body {
     font-size: 2.5em;
     font-weight: 500;
 
-    top: 30%;
+    top: 25%;
 
     position: relative;
 }
 
 .form-contact-form {
-    top: 30%;
+    top: 25%;
 
     width: 75%;
 
