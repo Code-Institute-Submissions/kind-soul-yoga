@@ -107,8 +107,8 @@ body {
 /*----------Sections - MQs*/
 @media (max-width: 576px) {
     .img-container-circle-lg {
-        height: 300px;
-        width: 300px;
+        height: 290px;
+        width: 290px;
     }
 
     .img-container-box-lg {
