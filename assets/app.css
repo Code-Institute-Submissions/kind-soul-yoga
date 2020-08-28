@@ -1,17 +1,19 @@
-/*--------------------------------------------Colors*/
+/*<--------------------------------------------Colors>*/
 /*#95ebe0 - light blue
 #29d4bd - darker blue
 #36454f - main text
 #a9bbc6 - light text
 #F3F5F6 - light grey*/
+/*<///-----------------------------------------Colors>*/
 
-/*--------------------------------------------Font*/
+/*<--------------------------------------------Font>*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
 
 body {
     font-family: 'Lato', sans-serif;
 }
+/*<///-----------------------------------------Font>*/
 
 /*<--------------------------------------------General>*/
 /*<---------------------------General - Sections>*/
