@@ -55,7 +55,7 @@ Click [here](https://github.com/zoet24/kind-soul-yoga) to view the Github reposi
 - To create an aesthetically pleasing website that is in keeping with Sarah's existing brand.
 - To create a website that is fully responsive on all screen sizes and devices.
 
-### User Stories
+### User stories
 
 I designed the Kind Soul Yoga website with the goals of the site owner (Sarah Gallacher) and the site users in mind. The following user stories helped decide what features to include on the website and what order to present information in.
 
@@ -65,16 +65,21 @@ I designed the Kind Soul Yoga website with the goals of the site owner (Sarah Ga
 
 #### New users
 
-1. I have a moderate interest in yoga and I would like to improve my practice by attending one of Sarah's group sessions.
-2. I have a serious interest in yoga and I would like to improve my practice by booking a 1-2-1 tutoring session with Sarah.
-3. I have seen Sarah and the Kind Soul Yoga brand on a social media platform and I would like to read about her lifestyle and her yoga tips.
+A. I have a moderate interest in yoga and I would like to improve my practice by attending one of Sarah's group sessions.
+
+B. I have a serious interest in yoga and I would like to improve my practice by booking a 1-2-1 tutoring session with Sarah.
+
+C. I have seen Sarah and the Kind Soul Yoga brand on a social media platform and I would like to read about her lifestyle and her yoga tips.
 
 #### Returning users
 
-1. I am a regular Kind Soul Yoga attendee and I would like to remind myself of the class schedule.
-2. I enjoyed one of Sarah's classes and I would like to donate some money.
-3. I have enjoyed Sarah's blog posts before and I would like to check if she has posted any new articles.
-4. I attended one of Sarah's classes and have a question about the routine she ran through. I would like to contact her for more information.
+A. I am a regular Kind Soul Yoga attendee and I would like to remind myself of the class schedule.
+
+B. I enjoyed one of Sarah's classes and I would like to donate some money.
+
+C. I have enjoyed Sarah's blog posts before and I would like to check if she has posted any new articles.
+
+D. I attended one of Sarah's classes and have a question about the routine she ran through. I would like to contact her for more information.
 
 ## Design Process
 
@@ -96,28 +101,25 @@ I designed the Kind Soul Yoga website with the goals of the site owner (Sarah Ga
 
 1. **Structure plane:** With my key features in mind, I decided to break up my website into five pages: the Home page with information about the brand and links to the rest of the website, the Group Sessions page with the class schedule and links to donate, the 1-2-1 Tutoring page with an enquiry form, the Blog page with large, responsive images and text bubbles, and the Contact page with another enquiry form.
 
-    To allow easy navigation of the website, I decided I should include a menu bar that remains fixed at the top of the page so the user can always access it instead of having to scroll to the top of the page. I also decided I should include links to other pages in the form of _'Call to Action'_ buttons so the user has multiple navigation options.
+    To allow easy navigation of the website, I decided I should include a menu bar that remains fixed at the top of the page so the user can always access it instead of having to scroll to the top of the page. I also decided I should include links to other pages in the form of _Call to Action_ buttons so the user has multiple navigation options.
 
 1. **Skeleton plane:** I sketched out my ideas for the desktop and mobile wireframes on paper, and then fleshed it out further in Google Slides (see next section). I used these methods as I was working offline and wanted to get started with the project! I was happy with my initial sketches so I didn't feel the need to redraw them in a more sophisticated software later on, but for future projects I would like to use packages like Balsamiq and Figma to develop the Skeleton and Surface planes. Sketching each allowed me to decide what features I wanted to include, and how the pages would link together.
 
-    I kept my Main Aims and User Stories at the forefront of this process to ensure I was designing a site that was actually going to be useful. An example of how I applied this can be seen in the positioning of the _'Call to Action'_ section (three links to the Group Sessions, 1-2-1 Tutoring and Blog pages) on the Home page. I initially positioned the _'About Sarah'_ section above this as I thought it worked well as an introduction to the website. However, I switched the sections around after considering the main goals of the site owner and the majority of site users: Sarah wants more people to sign up to her classes and read her blog posts, and the students want to improve their yoga through practice and advice. While Sarah wants to promote herself to her community and the students want to find out more about Sarah, this is a secondary aim and therefore the _'About Sarah'_ section should go below the _'Call to Action'_ section.
+    I kept my Main Aims and User Stories at the forefront of this process to ensure I was designing a site that was actually going to be useful. An example of how I applied this can be seen in the positioning of the _Call to Action_ section (three links to the Group Sessions, 1-2-1 Tutoring and Blog pages) on the Home page. I initially positioned the _About Sarah_ section above this as I thought it worked well as an introduction to the website. However, I switched the sections around after considering the main goals of the site owner and the majority of site users: Sarah wants more people to sign up to her classes and read her blog posts, and the students want to improve their yoga through practice and advice. While Sarah wants to promote herself to her community and the students want to find out more about Sarah, this is a secondary aim and therefore the _About Sarah_ section should go below the _Call to Action_ section.
+<img src="assets/images/ksy-logo.png" alt="Kind Soul Yoga logo" style="width:200px;"/>
 
 1. **Surface plane:** The main aesthetic aim of my project was to be in keeping with the existing Kind Soul Yoga brand - I used this aim as a basis for developing my Surface plane.
+<img src="assets/images/ksy-logo.png" alt="Kind Soul Yoga logo" style="width:200px;"/>
 
-**(picture of logo)**
+    Before I started this project, Sarah was using a circular logo with the centrally positioned text "Kind Soul Yoga". The main shades of colours are #95ebe0 (a light turquoise) and #29d4bd (a darker turquoise). The brand name is capitalised and the letters are slightly spaced apart.
+    
+    I used the colours from the logo to develop a wider colour scheme for the whole website using Coolors (you can view the full colour palette [here](https://coolors.co/95ebe0-29d4bd-36454f-a9bbc6-f3f5f6)). I wanted to mirror the circular shape of the logo across the site - all icons, images, buttons and text bubbles are either contained in a circle or have a rounded border. All heading elements - _h1, h2, h3_ and _h4_ - are capitalised and the letters are slightly spaced apart to mirror the text in the logo. I used these design features to flesh out my hand drawn wireframes in Google Slides.
+<img src="assets/images/ksy-logo.png" alt="Kind Soul Yoga logo" style="width:200px;"/>
 
-Before I started this project, Sarah was using a circular logo with the centrally positioned text &quot;Kind Soul Yoga&quot;. The main shades of colours are #95ebe0 (a light turquoise) and #29d4bd (a darker turquoise). The brand name is capitalised and the letters are slightly spaced apart.
-
-I used the colours from the logo to develop a wider colour scheme for the whole website using Coolors (you can view the full colour palette here [https://coolors.co/95ebe0-29d4bd-36454f-a9bbc6-f3f5f6](https://coolors.co/95ebe0-29d4bd-36454f-a9bbc6-f3f5f6)). I wanted to mirror the circular shape of the logo across the site - all icons, images, buttons and text bubbles are either contained in a circle or have a rounded border. All headings - _h1, h2, h3_ and _h4_ - are capitalised and the letters are slightly spaced apart to mirror the text in the logo. I used these design features to flesh out my hand drawn wireframes in Google Slides.
-
-**(picture of sketches)**
-
-**Note** : I didn't add specific fonts to the website until the very end of the development process. I thought that the default Bootstrap font worked well within the site so I didn't feel the need to specify a different one in my code. However, after deploying my live project and looking at the website on my Huawei P30 Pro mobile phone, I noticed that the font looked different when compared to my laptop browser. I used Google Fonts to select Lato for the headings and Raleway for the content of the website to ensure that the font looks consistent across all devices. For future projects I now know to specify the fonts from the start of the development process.
+    **Note**: I didn't add specific fonts to the website until the very end of the development process. I thought that the default Bootstrap font worked well within the site so I didn't feel the need to specify a different one in my code. However, after deploying my live project and looking at the website on my Huawei P30 Pro mobile phone, I noticed that the font looked different when compared to my laptop browser. I used Google Fonts to select Lato for the headings and Raleway for the content of the website to ensure that the font looks consistent across all devices. For future projects I now know to specify the fonts from the start of the development process.
 
 ## Features
-
 ### Existing features
-
 #### Consistent features
 
 - The fixed navigation bar at the top of each page and the footer at the bottom of each page are consistent and responsive throughout the website.
@@ -144,19 +146,19 @@ I used the colours from the logo to develop a wider colour scheme for the whole 
 
 - After the hero image there are numerous blog posts for the user to read through. Some of these contain tips of how to improve your yoga, some contain information about Sarah's lifestyle. All posts are responsive throughout the website.
 
-**Note:** Sarah doesn't actually have a blog so I had to create the content myself. Some of the content is fictional and was written by me, some of the content is copied from other yoga blogs (in these instances I have commented the source link into the code).
+    **Note:** Sarah doesn't actually have a blog so I had to create the content myself. Some of the content is fictional and was written by me, some of the content is copied from other yoga blogs (in these instances I have commented the source link into the code).
 
 #### Contact
 
 - After the hero image the user has the option to contact Sarah about general enquiries through the form.
 
-**(picture of site)**
+<img src="assets/images/ksy-logo.png" alt="Kind Soul Yoga logo" style="width:200px;"/>
 
 #### Features left to implement
 
-- **Blog** _ **hover** _ **effect:** I wanted to implement a _hover_ effect on the blog post titles on the Home page so that when a user scrolled over a specific post the opening few sentences of the blog post would appear and the user could have a taster of what the article was about. After struggling to get this to work for several hours, I decided that this effect wasn't necessary for the MVP and chose to mirror the layout of the _'Call to Action'_ section instead to give the sections on the Home page a nice symmetry. This effect would be a nice thing to add in in the future to make the site a little more interactive for the user.
+- **Blog** ***hover*** **effect:** I wanted to implement a _hover_ effect on the blog post titles on the Home page so that when a user scrolled over a specific post the opening few sentences of the blog post would appear and the user could have a taster of what the article was about. After struggling to get this to work for several hours, I decided that this effect wasn't necessary for the MVP and chose to mirror the layout of the _Call to Action_ section instead to give the sections on the Home page a nice symmetry. This effect would be a nice thing to add in in the future to make the site a little more interactive for the user.
 - **Interactive group session calendar:** I wanted to include a calendar widget that would allow the user to scroll through the classes planned for a specific date in the future. However, after considering the main aim of the project - to create a static front-end website - I decided to simplify this idea and have descriptions of five classes that would be run regularly every week instead. This is something I would like to build into the site in the future so that Sarah can advertise a more varied schedule and users can look up classes on specific dates.
-- **Colour scheme:** One of the tools I used to test my website was WAVE - The Web Accessibility Evaluation Tool ([https://wave.webaim.org/](https://wave.webaim.org/)). While I managed to fix all of the big accessibility errors that it found, it also flagged up that in a lot of areas there is very low contrast between foreground and background colors which would make the site difficult to use for those with low vision. Fixing this would require an overhaul of the aesthetic of the project and unfortunately I didn't have time to do this before the project deadline. This is something I would like to improve on in the future to ensure that the website is fully accessible for all users.
+- **Colour scheme:** One of the tools I used to test my website was [WAVE - The Web Accessibility Evaluation Tool](https://wave.webaim.org/). While I managed to fix all of the big accessibility errors that it found, it also flagged up that in a lot of areas there is very low contrast between foreground and background colors which would make the site difficult to use for those with low vision. Fixing this would require an overhaul of the aesthetic of the project and unfortunately I didn't have time to do this before the project deadline. This is something I would like to improve on in the future to ensure that the website is fully accessible for all users.
 
 ## Technologies used
 
@@ -172,15 +174,15 @@ I used the colours from the logo to develop a wider colour scheme for the whole 
 
 ### Additional tools used
 
-- **Amiresponsive (**[**http://ami.responsivedesign.is/**](http://ami.responsivedesign.is/)**):** I used this to test the responsiveness of my website and to produce the title photo in my README document.
-- **Coolors (**[**https://coolors.co/**](https://coolors.co/)**):** I used Coolors to create the colour palette for my website.
-- **FontAwesome (**[**https://fontawesome.com/**](https://fontawesome.com/)**):** I used FontAwesome's database to add numerous icons to the Group Sessions page to make it more visually appealing. I also used icons for the Facebook and Instagram links in the navigation bar.
+- **[Amiresponsive](http://ami.responsivedesign.is/):** I used this to test the responsiveness of my website and to produce the title photo in my README document.
+- **[Coolors](https://coolors.co/):** I used Coolors to create the colour palette for my website.
+- **[FontAwesome](https://fontawesome.com/):** I used FontAwesome's database to add numerous icons to the Group Sessions page to make it more visually appealing. I also used icons for the Facebook and Instagram links in the navigation bar.
 - **Google Developer Tools:** I used this to test the responsiveness of my website by viewing my project on devices with different screen sizes.
-- **Google Fonts (**[**https://fonts.google.com/**](https://fonts.google.com/)**):** I used two complementary fonts from Google Fonts for my project - Lato and Raleway.
+- **[Google Fonts](https://fonts.google.com/):** I used two complementary fonts from Google Fonts for my project - Lato and Raleway.
 - **Google Slides:** I used Google Slides to flesh out my wireframe sketches.
-- **W3C CSS Validation Service (**[**https://jigsaw.w3.org/css-validator/**](https://jigsaw.w3.org/css-validator/)**):** I used this to test to the validity of my CSS code.
-- **W3C Markup Validation Service (**[**https://validator.w3.org/**](https://validator.w3.org/)**):** I used this to test the validity of my HTML5 code.
-- **WAVE - Web Accessibility Evaluation Tool (**[**https://wave.webaim.org/**](https://wave.webaim.org/)**):** I used this to test the accessibility of my website.
+- **[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/):** I used this to test to the validity of my CSS code.
+- **[W3C Markup Validation Service](https://validator.w3.org/):** I used this to test the validity of my HTML5 code.
+- **[WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/):** I used this to test the accessibility of my website.
 
 ## Testing
 
@@ -194,27 +196,29 @@ The whole website is in keeping with the existing KSY brand as the aesthetic of 
 
 #### Testing - New users
 
-1. _I have a moderate interest in yoga and I would like to improve my practice by attending one of Sarah's group sessions._
-2. _I have a serious interest in yoga and I would like to improve my practice by booking a 1-2-1 tutoring session with Sarah._
-3. _I have seen Sarah and the Kind Soul Yoga brand on a social media platform and I would like to read about her lifestyle and her yoga tips._
+A. _I have a moderate interest in yoga and I would like to improve my practice by attending one of Sarah's group sessions._
 
-Links to the Group Sessions, 1-2-1 Tutoring and Blog pages are all easily accessible from the Home page, either from the fixed navigation or from the _'Call to Action'_ section underneath the hero image.
+B. _I have a serious interest in yoga and I would like to improve my practice by booking a 1-2-1 tutoring session with Sarah._
+
+C. _I have seen Sarah and the Kind Soul Yoga brand on a social media platform and I would like to read about her lifestyle and her yoga tips._
+
+Links to the Group Sessions, 1-2-1 Tutoring and Blog pages are all easily accessible from the Home page, either from the fixed navigation or from the _Call to Action_ section underneath the hero image.
 
 #### Testing - Returning users
 
-1. _I am a regular Kind Soul Yoga attendee and I would like to remind myself of the class schedule._
+A. _I am a regular Kind Soul Yoga attendee and I would like to remind myself of the class schedule._
 
-Links to the Group Sessions page are easily accessible from the Home page, either from the fixed navigation or from the _'Call to Action'_ section underneath the hero image. The schedule is clearly marked with an _h2_ heading and icon, and the time, type and difficulty of the classes are described in the text bubbles.
+Links to the Group Sessions page are easily accessible from the Home page, either from the fixed navigation or from the _Call to Action_ section underneath the hero image. The schedule is clearly marked with an _h2_ heading and icon, and the time, type and difficulty of the classes are described in the text bubbles.
 
-1. _I enjoyed one of Sarah's classes and I would like to donate some money._
+B. _I enjoyed one of Sarah's classes and I would like to donate some money._
 
-Links to the Group Sessions page are easily accessible from the Home page, either from the fixed navigation or from the _'Call to Action'_ section underneath the hero image. Each class description has a _Donate_ button which is larger than the other buttons throughout the website to help them stand out more on the page.
+Links to the Group Sessions page are easily accessible from the Home page, either from the fixed navigation or from the _Call to Action_ section underneath the hero image. Each class description has a _Donate_ button which is larger than the other buttons throughout the website to help them stand out more on the page.
 
-1. _I have enjoyed Sarah's blog posts before and I would like to check if she has posted any new articles._
+C. _I have enjoyed Sarah's blog posts before and I would like to check if she has posted any new articles._
 
 Links to the Blog page are easily accessible from the Home page, either from the fixed navigation, from the '_Call to Action_' section underneath the hero image or the _Blog Post_ section at the bottom of the page. New blog posts have a thicker text bubble border to draw the user's eye to them.
 
-1. _I attended one of Sarah's classes and have a question about the routine she ran through. I would like to contact her for more information._
+D. _I attended one of Sarah's classes and have a question about the routine she ran through. I would like to contact her for more information._
 
 The link to the Contact page is easily accessible from the Home page from the fixed navigation. Sarah's contact information is also clearly displayed at the footer of every page.
 
@@ -222,7 +226,7 @@ The link to the Contact page is easily accessible from the Home page from the fi
 
 #### HTML
 
-I ran my HTML through the W3C Markup Validation Service ([https://validator.w3.org/](https://validator.w3.org/)) which highlighted the following errors:
+I ran my HTML through the ([W3C Markup Validation Service](https://validator.w3.org/)) which highlighted the following errors:
 
 - **Alt attribute:** As the source links for the majority of the images on the website are listed in the CSS code, I added _alt_ attributes for accessibility next to the _id_ attributes for the image containers. The validator flagged this as an invalid HTML5 syntax, so I removed the _alt_ attributes and replaced them with _span_ elements with an _sr-only_ class.
 - **Lang attribute:** I had included the _lang_ attribute inside the _head_ tag instead of the _html_ tag, so there wasn't a language specified on the site.
@@ -230,20 +234,20 @@ I ran my HTML through the W3C Markup Validation Service ([https://validator.w3.o
 
 #### CSS
 
-I ran my CSS through the W3C CSS Validation Service ([https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)) which did not produce any errors.
+I ran my CSS through the ([W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)) which did not produce any errors.
 
 #### Validating the responsiveness
 
 I manually tested the responsive design of the project by:
 
-- Using Google Developer Tools and Amiresponsive ([http://ami.responsivedesign.is/](http://ami.responsivedesign.is/)) to view my project on devices with different screen sizes.
+- Using Google Developer Tools and ([Amiresponsive](http://ami.responsivedesign.is/)) to view my project on devices with different screen sizes.
 - Sharing the live project with friends and family to ask for their feedback.
 
 This highlighted a number of small changes that I need to implement regarding the dimensions, paddings and margins of various elements throughout the website that were targeted by media queries in the CSS.
 
 #### Validating the accessibility
 
-I tested the accessibility of my website using WAVE - The Web Accessibility Evaluation Tool ([https://wave.webaim.org/](https://wave.webaim.org/)) which highlighted the following errors:
+I tested the accessibility of my website using ([WAVE - The Web Accessibility Evaluation Tool](https://wave.webaim.org/)) which highlighted the following errors:
 
 - I had only used _h2, h3_ and _h4_ elements in my HTML so it wasn't clear what the main heading was on each page. To make my code more semantic, I reassigned the main heading as an _h1_.
 - The _forms_ on the Group Sessions, 1-2-1 Tutoring and Contact pages didn't have a _label_ attribute so it wasn't clear what each _form input_ was for. I didn't want to add in a visible label so I added a _title_ attribute instead.
@@ -266,7 +270,7 @@ I used GitHub Pages to deploy my website with the following steps:
 3. I selected the _master branch_ as my source.
 4. This deployed my project on GitHub Pages and allowed me to share the live website.
 
-More information can be found on the following link: Configuring a publishing source for your GitHub Pages site (link).
+More information on Github Pages can be found [here](https://pages.github.com/).
 
 ## Cloning
 
@@ -278,10 +282,10 @@ To develop my project further you can clone it to your local machine with the fo
   2. For SSH key: first click on 'Use SSH' then click on the checklist icon to the right of the URL.
 3. Open the _Terminal._
 4. Change the current working directory to the destination of the cloned directory.
-5. Type &quot;git clone&quot; and then paste the URL you copied earlier.
+5. Type "git clone" and then paste the URL you copied earlier.
 6. Press _Enter_ to create your local clone.
 
-More information can be found on the following link: Cloning a Repository (link).
+More information can be found [here](https://docs.github.com/en/enterprise/2.13/user/articles/cloning-a-repository).
 
 ## Credits
 
