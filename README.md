@@ -2,7 +2,7 @@
 
 ## Code Institute: Milestone Project 1
 
-<img src="assets/images/readme-amiresponsive.JPG" alt="Kind Soul Yoga website on multiple devices" style="width:500px;"/>
+<img src="assets/images/readme-amiresponsive.JPG" alt="Kind Soul Yoga website on multiple devices" style="width:1000px"/>
 
 Kind Soul Yoga is a wellness brand which promotes healthy and mindful living through regular yoga practice. It is run by my friend Sarah Gallacher who has been advertising and managing KSY through social media and Linktree. My aim with this project was to create a platform to allow her to promote her brand more easily and set her apart from other Instagram yoga instructors. The KSY website does just that, while also giving her students a central point of information to find out about class schedules and blog tips. Sarah can now grow her community of yoga enthusiasts, helping them to practice, improve and learn through the different features of the website.
 
@@ -107,21 +107,23 @@ D. I attended one of Sarah's classes and have a question about the routine she r
 
     I kept my Main Aims and User Stories at the forefront of this process to ensure I was designing a site that was actually going to be useful. An example of how I applied this can be seen in the positioning of the _Call to Action_ section (three links to the Group Sessions, 1-2-1 Tutoring and Blog pages) on the Home page. I initially positioned the _About Sarah_ section above this as I thought it worked well as an introduction to the website. However, I switched the sections around after considering the main goals of the site owner and the majority of site users: Sarah wants more people to sign up to her classes and read her blog posts, and the students want to improve their yoga through practice and advice. While Sarah wants to promote herself to her community and the students want to find out more about Sarah, this is a secondary aim and therefore the _About Sarah_ section should go below the _Call to Action_ section.
 
-<img src="assets/images/readme-skeleton-desktop.JPG" alt="Kind Soul Yoga logo" style="width:1000px;"/>
+KSY skeleton plane for desktop:
+<img src="assets/images/readme-skeleton-desktop.JPG" alt="Hand drawn skeleton plane for desktop devices" style="width:750px"/>
 
-<img src="assets/images/readme-skeleton-mobile.JPG" alt="Kind Soul Yoga logo" style="width:500px;"/>
+KSY skeleton plane for mobile:
+<img src="assets/images/readme-skeleton-mobile.JPG" alt="Hand drawn skeleton plane for mobile devices" style="width:750px"/>
 
 5. **Surface plane:** The main aesthetic aim of my project was to be in keeping with the existing Kind Soul Yoga brand - I used this aim as a basis for developing my Surface plane.
 
-<img src="assets/images/ksy-logo.png" alt="Kind Soul Yoga logo" style="width:200px;"/>
-
-Before I started this project, Sarah was using a circular logo with the centrally positioned text "Kind Soul Yoga". The main shades of colours are #95ebe0 (a light turquoise) and #29d4bd (a darker turquoise). The brand name is capitalised and the letters are slightly spaced apart.
+    Before I started this project, Sarah was using a circular logo with the centrally positioned text "Kind Soul Yoga". The main shades of colours are #95ebe0 (a light turquoise) and #29d4bd (a darker turquoise). The brand name is capitalised and the letters are slightly spaced apart.
     
-I used the colours from the logo to develop a wider colour scheme for the whole website using Coolors (you can view the full colour palette [here](https://coolors.co/95ebe0-29d4bd-36454f-a9bbc6-f3f5f6)). I wanted to mirror the circular shape of the logo across the site - all icons, images, buttons and text bubbles are either contained in a circle or have a rounded border. All heading elements - _h1, h2, h3_ and _h4_ - are capitalised and the letters are slightly spaced apart to mirror the text in the logo. I used these design features to flesh out my hand drawn wireframes in Google Slides.
+    I used the colours from the logo to develop a wider colour scheme for the whole website using Coolors (you can view the full colour palette [here](https://coolors.co/95ebe0-29d4bd-36454f-a9bbc6-f3f5f6)). I wanted to mirror the circular shape of the logo across the site - all icons, images, buttons and text bubbles are either contained in a circle or have a rounded border. All heading elements - _h1, h2, h3_ and _h4_ - are capitalised and the letters are slightly spaced apart to mirror the text in the logo. I used these design features to flesh out my hand drawn wireframes in Google Slides.
 
-<img src="assets/images/readme-surface-desktop.JPG" alt="Kind Soul Yoga logo" style="width:1000px;"/>
+KSY surface plane for desktop:
+<img src="assets/images/readme-surface-desktop.JPG" alt="Surface plane for desktop devices" style="width:750px"/>
 
-<img src="assets/images/readme-surface-mobile.JPG" alt="Kind Soul Yoga logo" style="width:500px;"/>
+KSY surface plane for mobile:
+<img src="assets/images/readme-surface-mobile.JPG" alt="Surface plane for mobile devices" style="width:750px"/>
 
 **Note**: I didn't add specific fonts to the website until the very end of the development process. I thought that the default Bootstrap font worked well within the site so I didn't feel the need to specify a different one in my code. However, after deploying my live project and looking at the website on my Huawei P30 Pro mobile phone, I noticed that the font looked different when compared to my laptop browser. I used Google Fonts to select Lato for the headings and Raleway for the content of the website to ensure that the font looks consistent across all devices. For future projects I now know to specify the fonts from the start of the development process.
 
@@ -135,7 +137,7 @@ I used the colours from the logo to develop a wider colour scheme for the whole 
 
 #### Home
 
-- After the hero image the user sees three _'Calls to Action'_ buttons - links to the Group Sessions, 1-2-1 Tutoring and Blog pages - which will allow them to improve their yoga practice in different ways.
+- After the hero image the user sees three _Calls to Action_ buttons - links to the Group Sessions, 1-2-1 Tutoring and Blog pages - which will allow them to improve their yoga practice in different ways.
 - The user is then presented with a welcome message from Sarah and an introduction to the Kind Soul Yoga brand.
 - At the bottom of the page, the user can review the titles of recent blog posts and click on them to read more.
 
@@ -153,15 +155,17 @@ I used the colours from the logo to develop a wider colour scheme for the whole 
 
 - After the hero image there are numerous blog posts for the user to read through. Some of these contain tips of how to improve your yoga, some contain information about Sarah's lifestyle. All posts are responsive throughout the website.
 
-    **Note:** Sarah doesn't actually have a blog so I had to create the content myself. Some of the content is fictional and was written by me, some of the content is copied from other yoga blogs (in these instances I have commented the source link into the code).
+    **Note:** Sarah doesn't actually have a blog so I had to create the content myself. Some of the content is fictional and was written by me, some of the content is copied from other yoga blogs (in these instances I have commented the source link into the code). In the screenshots of the website below, the blog sections are shorter than the live project.
 
 #### Contact
 
 - After the hero image the user has the option to contact Sarah about general enquiries through the form.
 
-<img src="assets/images/readme-final-desktop.JPG" alt="Kind Soul Yoga logo" style="width:1000px;"/>
+KSY final website for desktop:
+<img src="assets/images/readme-final-desktop.JPG" alt="KSY final website for desktop" style="width:750px"/>
 
-<img src="assets/images/readme-final-mobile.JPG" alt="Kind Soul Yoga logo" style="width:500px;"/>
+KSY final website for mobile:
+<img src="assets/images/readme-final-mobile.JPG" alt="KSY final website for mobile" style="width:750px"/>
 
 #### Features left to implement
 
@@ -192,10 +196,11 @@ I used the colours from the logo to develop a wider colour scheme for the whole 
 - **[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/):** I used this to test to the validity of my CSS code.
 - **[W3C Markup Validation Service](https://validator.w3.org/):** I used this to test the validity of my HTML5 code.
 - **[WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/):** I used this to test the accessibility of my website.
+- **[Word to Markdown Converter](https://word2md.com/):** I used this to convert my README Word document into Markdown format.
 
 ## Testing
 
-### Testing User Stories
+### Testing user Stories
 
 #### Testing - Project stakeholder
 
@@ -225,7 +230,7 @@ Links to the Group Sessions page are easily accessible from the Home page, eithe
 
 C. _I have enjoyed Sarah's blog posts before and I would like to check if she has posted any new articles._
 
-Links to the Blog page are easily accessible from the Home page, either from the fixed navigation, from the '_Call to Action_' section underneath the hero image or the _Blog Post_ section at the bottom of the page. New blog posts have a thicker text bubble border to draw the user's eye to them.
+Links to the Blog page are easily accessible from the Home page, either from the fixed navigation, from the _Call to Action_ section underneath the hero image or the _Blog Post_ section at the bottom of the page. New blog posts have a thicker text bubble border to draw the user's eye to them.
 
 D. _I attended one of Sarah's classes and have a question about the routine she ran through. I would like to contact her for more information._
 
@@ -235,7 +240,7 @@ The link to the Contact page is easily accessible from the Home page from the fi
 
 #### HTML
 
-I ran my HTML through the ([W3C Markup Validation Service](https://validator.w3.org/)) which highlighted the following errors:
+I ran my HTML through the [W3C Markup Validation Service](https://validator.w3.org/) which highlighted the following errors:
 
 - **Alt attribute:** As the source links for the majority of the images on the website are listed in the CSS code, I added _alt_ attributes for accessibility next to the _id_ attributes for the image containers. The validator flagged this as an invalid HTML5 syntax, so I removed the _alt_ attributes and replaced them with _span_ elements with an _sr-only_ class.
 - **Lang attribute:** I had included the _lang_ attribute inside the _head_ tag instead of the _html_ tag, so there wasn't a language specified on the site.
@@ -243,24 +248,24 @@ I ran my HTML through the ([W3C Markup Validation Service](https://validator.w3.
 
 #### CSS
 
-I ran my CSS through the ([W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)) which did not produce any errors.
+I ran my CSS through the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) which did not produce any errors.
 
 #### Validating the responsiveness
 
 I manually tested the responsive design of the project by:
 
-- Using Google Developer Tools and ([Amiresponsive](http://ami.responsivedesign.is/)) to view my project on devices with different screen sizes.
+- Using Google Developer Tools and [Amiresponsive](http://ami.responsivedesign.is/) to view my project on devices with different screen sizes.
 - Sharing the live project with friends and family to ask for their feedback.
 
 This highlighted a number of small changes that I need to implement regarding the dimensions, paddings and margins of various elements throughout the website that were targeted by media queries in the CSS.
 
 #### Validating the accessibility
 
-I tested the accessibility of my website using ([WAVE - The Web Accessibility Evaluation Tool](https://wave.webaim.org/)) which highlighted the following errors:
+I tested the accessibility of my website using [WAVE - The Web Accessibility Evaluation Tool](https://wave.webaim.org/) which highlighted the following errors:
 
 - I had only used _h2, h3_ and _h4_ elements in my HTML so it wasn't clear what the main heading was on each page. To make my code more semantic, I reassigned the main heading as an _h1_.
 - The _forms_ on the Group Sessions, 1-2-1 Tutoring and Contact pages didn't have a _label_ attribute so it wasn't clear what each _form input_ was for. I didn't want to add in a visible label so I added a _title_ attribute instead.
-- There is very low contrast between a lot of foreground and background colors which would make the site difficult to use for those with low vision. I didn't have time to fix this issue but I have mentioned it in my Features Left To Implement section ( **link** ) as something I would like to rectify in the future.
+- There is very low contrast between a lot of foreground and background colors which would make the site difficult to use for those with low vision. I didn't have time to fix this issue but I have mentioned it in my [Features left to implement](#features-left-to-implement) section as something I would like to rectify in the future.
 
 #### Validating the functionality of all links
 
@@ -268,7 +273,7 @@ I manually tested the links of the website by:
 
 - Ensuring that all social media and donate links opened on the correct page (Facebook, Instagram and Paypal) and in a separate tab.
 - Clicking on every navigation link from each page to make sure they take the user to the correct place and that they display as _active_ when selected.
-- Clicking on every '_Call To Action_' and _Blog Post - Read More_ button to make sure they take the user to the correct place.
+- Clicking on every _Call To Action_ and _Blog Post - Read More_ button to make sure they take the user to the correct place.
 
 ## Deployment
 
