@@ -99,24 +99,31 @@ D. I attended one of Sarah's classes and have a question about the routine she r
     - A soothing and non-distracting colour palette.
     - A section that allows the user to contact Sarah directly.
 
-1. **Structure plane:** With my key features in mind, I decided to break up my website into five pages: the Home page with information about the brand and links to the rest of the website, the Group Sessions page with the class schedule and links to donate, the 1-2-1 Tutoring page with an enquiry form, the Blog page with large, responsive images and text bubbles, and the Contact page with another enquiry form.
+3. **Structure plane:** With my key features in mind, I decided to break up my website into five pages: the Home page with information about the brand and links to the rest of the website, the Group Sessions page with the class schedule and links to donate, the 1-2-1 Tutoring page with an enquiry form, the Blog page with large, responsive images and text bubbles, and the Contact page with another enquiry form.
 
     To allow easy navigation of the website, I decided I should include a menu bar that remains fixed at the top of the page so the user can always access it instead of having to scroll to the top of the page. I also decided I should include links to other pages in the form of _Call to Action_ buttons so the user has multiple navigation options.
 
-1. **Skeleton plane:** I sketched out my ideas for the desktop and mobile wireframes on paper, and then fleshed it out further in Google Slides (see next section). I used these methods as I was working offline and wanted to get started with the project! I was happy with my initial sketches so I didn't feel the need to redraw them in a more sophisticated software later on, but for future projects I would like to use packages like Balsamiq and Figma to develop the Skeleton and Surface planes. Sketching each allowed me to decide what features I wanted to include, and how the pages would link together.
+4. **Skeleton plane:** I sketched out my ideas for the desktop and mobile wireframes on paper, and then fleshed it out further in Google Slides (see next section). I used these methods as I was working offline and wanted to get started with the project! I was happy with my initial sketches so I didn't feel the need to redraw them in a more sophisticated software later on, but for future projects I would like to use packages like Balsamiq and Figma to develop the Skeleton and Surface planes. Sketching each allowed me to decide what features I wanted to include, and how the pages would link together.
 
     I kept my Main Aims and User Stories at the forefront of this process to ensure I was designing a site that was actually going to be useful. An example of how I applied this can be seen in the positioning of the _Call to Action_ section (three links to the Group Sessions, 1-2-1 Tutoring and Blog pages) on the Home page. I initially positioned the _About Sarah_ section above this as I thought it worked well as an introduction to the website. However, I switched the sections around after considering the main goals of the site owner and the majority of site users: Sarah wants more people to sign up to her classes and read her blog posts, and the students want to improve their yoga through practice and advice. While Sarah wants to promote herself to her community and the students want to find out more about Sarah, this is a secondary aim and therefore the _About Sarah_ section should go below the _Call to Action_ section.
+
+<img src="assets/images/readme-skeleton-desktop.JPG" alt="Kind Soul Yoga logo" style="width:1000px;"/>
+
+<img src="assets/images/readme-skeleton-mobile.JPG" alt="Kind Soul Yoga logo" style="width:500px;"/>
+
+5. **Surface plane:** The main aesthetic aim of my project was to be in keeping with the existing Kind Soul Yoga brand - I used this aim as a basis for developing my Surface plane.
+
 <img src="assets/images/ksy-logo.png" alt="Kind Soul Yoga logo" style="width:200px;"/>
 
-1. **Surface plane:** The main aesthetic aim of my project was to be in keeping with the existing Kind Soul Yoga brand - I used this aim as a basis for developing my Surface plane.
-<img src="assets/images/ksy-logo.png" alt="Kind Soul Yoga logo" style="width:200px;"/>
-
-    Before I started this project, Sarah was using a circular logo with the centrally positioned text "Kind Soul Yoga". The main shades of colours are #95ebe0 (a light turquoise) and #29d4bd (a darker turquoise). The brand name is capitalised and the letters are slightly spaced apart.
+Before I started this project, Sarah was using a circular logo with the centrally positioned text "Kind Soul Yoga". The main shades of colours are #95ebe0 (a light turquoise) and #29d4bd (a darker turquoise). The brand name is capitalised and the letters are slightly spaced apart.
     
-    I used the colours from the logo to develop a wider colour scheme for the whole website using Coolors (you can view the full colour palette [here](https://coolors.co/95ebe0-29d4bd-36454f-a9bbc6-f3f5f6)). I wanted to mirror the circular shape of the logo across the site - all icons, images, buttons and text bubbles are either contained in a circle or have a rounded border. All heading elements - _h1, h2, h3_ and _h4_ - are capitalised and the letters are slightly spaced apart to mirror the text in the logo. I used these design features to flesh out my hand drawn wireframes in Google Slides.
-<img src="assets/images/ksy-logo.png" alt="Kind Soul Yoga logo" style="width:200px;"/>
+I used the colours from the logo to develop a wider colour scheme for the whole website using Coolors (you can view the full colour palette [here](https://coolors.co/95ebe0-29d4bd-36454f-a9bbc6-f3f5f6)). I wanted to mirror the circular shape of the logo across the site - all icons, images, buttons and text bubbles are either contained in a circle or have a rounded border. All heading elements - _h1, h2, h3_ and _h4_ - are capitalised and the letters are slightly spaced apart to mirror the text in the logo. I used these design features to flesh out my hand drawn wireframes in Google Slides.
 
-    **Note**: I didn't add specific fonts to the website until the very end of the development process. I thought that the default Bootstrap font worked well within the site so I didn't feel the need to specify a different one in my code. However, after deploying my live project and looking at the website on my Huawei P30 Pro mobile phone, I noticed that the font looked different when compared to my laptop browser. I used Google Fonts to select Lato for the headings and Raleway for the content of the website to ensure that the font looks consistent across all devices. For future projects I now know to specify the fonts from the start of the development process.
+<img src="assets/images/readme-surface-desktop.JPG" alt="Kind Soul Yoga logo" style="width:1000px;"/>
+
+<img src="assets/images/readme-surface-mobile.JPG" alt="Kind Soul Yoga logo" style="width:500px;"/>
+
+**Note**: I didn't add specific fonts to the website until the very end of the development process. I thought that the default Bootstrap font worked well within the site so I didn't feel the need to specify a different one in my code. However, after deploying my live project and looking at the website on my Huawei P30 Pro mobile phone, I noticed that the font looked different when compared to my laptop browser. I used Google Fonts to select Lato for the headings and Raleway for the content of the website to ensure that the font looks consistent across all devices. For future projects I now know to specify the fonts from the start of the development process.
 
 ## Features
 ### Existing features
@@ -152,7 +159,9 @@ D. I attended one of Sarah's classes and have a question about the routine she r
 
 - After the hero image the user has the option to contact Sarah about general enquiries through the form.
 
-<img src="assets/images/ksy-logo.png" alt="Kind Soul Yoga logo" style="width:200px;"/>
+<img src="assets/images/readme-final-desktop.JPG" alt="Kind Soul Yoga logo" style="width:1000px;"/>
+
+<img src="assets/images/readme-final-mobile.JPG" alt="Kind Soul Yoga logo" style="width:500px;"/>
 
 #### Features left to implement
 
