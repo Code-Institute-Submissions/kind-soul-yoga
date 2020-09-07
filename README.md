@@ -2,7 +2,7 @@
 
 ## Code Institute: Milestone Project 1
 
-<img src="assets/images/readme-amiresponsive.JPG" alt="Kind Soul Yoga website on multiple devices" style="width:1000px"/>
+<img src="assets/images/readme-amiresponsive.jpg" alt="Kind Soul Yoga website on multiple devices" style="width:1000px"/>
 
 Kind Soul Yoga is a wellness brand which promotes healthy and mindful living through regular yoga practice. It is run by my friend Sarah Gallacher who has been advertising and managing KSY through social media and Linktree. My aim with this project was to create a platform to allow her to promote her brand more easily and set her apart from other Instagram yoga instructors. The KSY website does just that, while also giving her students a central point of information to find out about class schedules and blog tips. Sarah can now grow her community of yoga enthusiasts, helping them to practice, improve and learn through the different features of the website.
 
@@ -108,10 +108,10 @@ D. I attended one of Sarah's classes and have a question about the routine she r
     I kept my Main Aims and User Stories at the forefront of this process to ensure I was designing a site that was actually going to be useful. An example of how I applied this can be seen in the positioning of the _Call to Action_ section (three links to the Group Sessions, 1-2-1 Tutoring and Blog pages) on the Home page. I initially positioned the _About Sarah_ section above this as I thought it worked well as an introduction to the website. However, I switched the sections around after considering the main goals of the site owner and the majority of site users: Sarah wants more people to sign up to her classes and read her blog posts, and the students want to improve their yoga through practice and advice. While Sarah wants to promote herself to her community and the students want to find out more about Sarah, this is a secondary aim and therefore the _About Sarah_ section should go below the _Call to Action_ section.
 
 KSY skeleton plane for desktop:
-<img src="assets/images/readme-skeleton-desktop.JPG" alt="Hand drawn skeleton plane for desktop devices" style="width:750px"/>
+<img src="assets/images/readme-skeleton-desktop.jpg" alt="Hand drawn skeleton plane for desktop devices" style="width:750px"/>
 
 KSY skeleton plane for mobile:
-<img src="assets/images/readme-skeleton-mobile.JPG" alt="Hand drawn skeleton plane for mobile devices" style="width:750px"/>
+<img src="assets/images/readme-skeleton-mobile.jpg" alt="Hand drawn skeleton plane for mobile devices" style="width:750px"/>
 
 5. **Surface plane:** The main aesthetic aim of my project was to be in keeping with the existing Kind Soul Yoga brand - I used this aim as a basis for developing my Surface plane.
 
@@ -120,10 +120,10 @@ KSY skeleton plane for mobile:
     I used the colours from the logo to develop a wider colour scheme for the whole website using Coolors (you can view the full colour palette [here](https://coolors.co/95ebe0-29d4bd-36454f-a9bbc6-f3f5f6)). I wanted to mirror the circular shape of the logo across the site - all icons, images, buttons and text bubbles are either contained in a circle or have a rounded border. All heading elements - _h1, h2, h3_ and _h4_ - are capitalised and the letters are slightly spaced apart to mirror the text in the logo. I used these design features to flesh out my hand drawn wireframes in Google Slides.
 
 KSY surface plane for desktop:
-<img src="assets/images/readme-surface-desktop.JPG" alt="Surface plane for desktop devices" style="width:750px"/>
+<img src="assets/images/readme-surface-desktop.jpg" alt="Surface plane for desktop devices" style="width:750px"/>
 
 KSY surface plane for mobile:
-<img src="assets/images/readme-surface-mobile.JPG" alt="Surface plane for mobile devices" style="width:750px"/>
+<img src="assets/images/readme-surface-mobile.jpg" alt="Surface plane for mobile devices" style="width:750px"/>
 
 **Note**: I didn't add specific fonts to the website until the very end of the development process. I thought that the default Bootstrap font worked well within the site so I didn't feel the need to specify a different one in my code. However, after deploying my live project and looking at the website on my Huawei P30 Pro mobile phone, I noticed that the font looked different when compared to my laptop browser. I used Google Fonts to select Lato for the headings and Raleway for the content of the website to ensure that the font looks consistent across all devices. For future projects I now know to specify the fonts from the start of the development process.
 
@@ -162,10 +162,10 @@ KSY surface plane for mobile:
 - After the hero image the user has the option to contact Sarah about general enquiries through the form.
 
 KSY final website for desktop:
-<img src="assets/images/readme-final-desktop.JPG" alt="KSY final website for desktop" style="width:750px"/>
+<img src="assets/images/readme-final-desktop.jpg" alt="KSY final website for desktop" style="width:750px"/>
 
 KSY final website for mobile:
-<img src="assets/images/readme-final-mobile.JPG" alt="KSY final website for mobile" style="width:750px"/>
+<img src="assets/images/readme-final-mobile.jpg" alt="KSY final website for mobile" style="width:750px"/>
 
 #### Features left to implement
 

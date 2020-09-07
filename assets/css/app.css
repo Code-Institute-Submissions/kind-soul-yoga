@@ -596,7 +596,7 @@ body {
 /*<--------------------------------------------Home>*/
 /*---------------------------Home - Hero Image*/
 #hero-image-home {
-    background: url("./images/hero-image-home.jpg");
+    background: url("../images/hero-image-home.jpg");
     background-position: 50% 35%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -682,7 +682,7 @@ body {
 /*<--------------------------------------------Book - Group>*/
 /*---------------------------Book - Group - Hero Image*/
 #hero-image-group {
-    background: url("./images/hero-image-group.jpg");
+    background: url("../images/hero-image-group.jpg");
     background-position: 30% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -758,7 +758,7 @@ body {
 /*<--------------------------------------------Book - 1-2-1>*/
 /*---------------------------Book - 1-2-1 - Hero Image*/
 #hero-image-121 {
-    background: url("./images/hero-image-121.jpg");
+    background: url("../images/hero-image-121.jpg");
     background-position: 52.5% 35%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -801,7 +801,7 @@ body {
 /*----------Book - 1-2-1 - MQs*/
 @media (min-width: 768px) {
     #hero-image-121 {
-        background: url("./images/hero-image-121.jpg");
+        background: url("../images/hero-image-121.jpg");
         background-position: 52.5% 60%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -814,7 +814,7 @@ body {
 
 @media (min-width: 992px) {
     #hero-image-121 {
-        background: url("./images/hero-image-121.jpg");
+        background: url("../images/hero-image-121.jpg");
         background-position: 10% 80%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -831,7 +831,7 @@ body {
 /*<--------------------------------------------Blog>*/
 /*---------------------------Blog - Hero Image*/
 #hero-image-blog {
-    background: url("./images/hero-image-blog.jpg");
+    background: url("../images/hero-image-blog.jpg");
     background-position: 40% 55%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -924,7 +924,7 @@ body {
 /*<--------------------------------------------Contact>*/
 /*---------------------------Hero Image & Contact Form*/
 #hero-image-contact {
-    background: url("./images/hero-image-contact.jpg");
+    background: url("../images/hero-image-contact.jpg");
     background-position: 42.5% 55%;
     background-repeat: no-repeat;
     background-size: cover;
