@@ -598,51 +598,45 @@ body {
 
 /*---------------------------Home - Calls to Action*/
 #home-cta-group-classes-picture {
-    background: url("./images/home-cta-1.jpg");
-    background-position: 50% 80%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 50% 80%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
 #home-cta-1-2-1-classes-picture {
-    background: url("./images/home-cta-2.jpg");
-    background-position: 30% 45%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 30% 45%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
 #home-cta-blog-picture {
-    background: url("./images/home-cta-3.jpg");
-    background-position: 50% 75%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 50% 75%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
 /*---------------------------Home - About*/
 #home-about-sarah-picture {
-    background: url("./images/home-about-profile.jpg");
-    background-position: 50% 75%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 50% 75%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
 #home-about-sarah-picture-2 {
-    background: url("./images/home-about-profile-2.jpg");
-    background-position: 50% 75%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 50% 75%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
-
 
 /*----------Home - About - MQs*/
 @media (min-width: 768px) {
@@ -653,29 +647,26 @@ body {
 
 /*---------------------------Home - Blog Posts*/
 #home-blog-picture-1 {
-    background: url("./images/blog-entry-1-picture-1.jpg");
-    background-position: 70% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 70% 50%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
 #home-blog-picture-2 {
-    background: url("./images/blog-entry-2-picture-1.jpg");
-    background-position: 50% 25%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 50% 25%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
 #home-blog-picture-3 {
-    background: url("./images/blog-entry-5-picture-1.jpg");
-    background-position: 20% 70%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 20% 70%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 /*<///-----------------------------------------Home>*/
