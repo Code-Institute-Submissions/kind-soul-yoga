@@ -281,14 +281,14 @@ body {
 }
 
 .h3-title-1-border {
-    border-top: solid 0.5px #a9bbc6;
-    border-bottom: solid 0.5px #a9bbc6;
+    border-top: solid 1px #a9bbc6;
+    border-bottom: solid 1px #a9bbc6;
     line-height: 40px;
 }
 
 .h3-title-2-border {
-    border-top: solid 0.5px #36454f;
-    border-bottom: solid 0.5px #36454f;
+    border-top: solid 1px #36454f;
+    border-bottom: solid 1px #36454f;
     line-height: 40px;
     font-weight: 300;
 }
@@ -308,8 +308,8 @@ body {
 }
 
 .h4-title-1-border {
-    border-top: solid 0.5px #a9bbc6;
-    border-bottom: solid 0.5px #a9bbc6;
+    border-top: solid 1px #a9bbc6;
+    border-bottom: solid 1px #a9bbc6;
     line-height: 30px;
 }
 
@@ -328,8 +328,8 @@ body {
 }
 
 .h4-title-2-border {
-    border-top: solid 0.5px #36454f;
-    border-bottom: solid 0.5px #36454f;
+    border-top: solid 1px #36454f;
+    border-bottom: solid 1px #36454f;
     line-height: 30px;
 }
 
