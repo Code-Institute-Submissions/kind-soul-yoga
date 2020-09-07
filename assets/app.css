@@ -782,7 +782,6 @@ body {
 }
 
 #book-1-2-1-testimonial-picture-3 {
-    background: url("./images/home-cta-3.jpg");
     object-position: 50% 75%;
     object-fit: cover;
     height: 100%;
@@ -840,92 +839,82 @@ body {
 
 /*---------------------------Blog - Posts*/
 #blog-entry-1-picture-1 {
-    background: url("./images/blog-entry-1-picture-1.jpg");
-    background-position: 20% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 20% 50%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
 #blog-entry-1-picture-2 {
-    background: url("./images/blog-entry-1-picture-2.jpg");
-    background-position: 30% 40%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 30% 40%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
 #blog-entry-1-picture-3 {
-    background: url("./images/blog-entry-1-picture-3.jpg");
-    background-position: 20% 40%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 20% 40%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
 #blog-entry-2-picture-1 {
-    background: url("./images/blog-entry-2-picture-1.jpg");
-    background-position: 0% 20%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 0% 20%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 25px;
 }
 
 #blog-entry-3-picture-1 {
-    background: url("./images/blog-entry-3-picture-1.jpg");
-    background-position: 50% 70%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 50% 70%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 25px;
 }
 
 #blog-entry-4-picture-1 {
-    background: url("./images/blog-entry-4-picture-1.jpg");
-    background-position: 15% 70%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 15% 70%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 25px;
 }
 
 #blog-entry-5-picture-1 {
-    background: url("./images/blog-entry-5-picture-1.jpg");
-    background-position: 25% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 25% 50%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
 #blog-entry-5-picture-2 {
-    background: url("./images/blog-entry-5-picture-2.jpg");
     background-position: 0% 70%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
 #blog-entry-5-picture-3 {
-    background: url("./images/blog-entry-5-picture-3.jpg");
-    background-position: 0% 70%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 0% 70%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
 #blog-entry-6-picture-1 {
-    background: url("./images/home-about-profile.jpg");
-    background-position: 45% 80%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 45% 80%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 25px;
 }
 /*<///-----------------------------------------Blog>*/
