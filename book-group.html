@@ -1,390 +1,367 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-  <head>
-    <title>Kind Soul Yoga | Group Sessions</title>
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"/>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.11.1/css/all.css"
-      type="text/css"
-    />
-    <link rel="stylesheet" type="text/css" href="assets/app.css" />
-  </head>
-
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
-      <a class="navbar-brand" href="index.html"
-        ><img id="logo" src="assets/images/ksy-logo.png" alt="Kind Soul Yoga logo"
-      /></a>
-
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span><i class="fas fa-bars" id="navbar-custom-icon"></i></span>
-      </button>
-
-      <div
-        class="collapse navbar-collapse justify-content-center"
-        id="navbarNavDropdown"
-      >
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html"
-              >Home</a
-            >
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Book</a
-            >
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item active" href="book-group.html">Group<span class="sr-only">(current)</span></a>
-              <a class="dropdown-item" href="book-1-2-1.html">1-2-1</a>
+    <!-- Head -->
+    <head>
+        <title>Kind Soul Yoga | Group Sessions</title>
+        <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.1/css/all.css" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="assets/app.css" />
+    </head>
+    <!-- /Head -->
+    <!-- Body -->
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+            <a class="navbar-brand" href="index.html"><img id="logo" src="assets/images/ksy-logo.png" alt="Kind Soul Yoga logo"
+        /></a>
+                <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span><i class="fas fa-bars" id="navbar-custom-icon"></i></span>
+        </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Book</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item active"
+                                href="book-group.html">Group<span class="sr-only">(current)</span></a>
+                            <a class="dropdown-item" href="book-1-2-1.html">1-2-1</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blog.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="d-none d-sm-block">
-        <ul class="list-inline" id="social-links-nav">
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.facebook.com/sarah.gallacher.33">
-              <i class="fab fa-facebook-f" aria-hidden="true"></i>
-              <span class="sr-only">Facebook</span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.instagram.com/kindsoulyoga/">
-              <i class="fab fa-instagram" aria-hidden="true"></i>
-              <span class="sr-only">Instagram</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- Hero Image -->
-    <header class="container-fluid container-hero">
-      <div class="hero-image" id="hero-image-group"></div>
-      <span class="sr-only">Sarah teaching group yoga class</span>
-      <div class="hero-image-overlay">
-        <h1>Group sessions</h1>
-      </div>
-    </header>
-    <!-- /Hero Image -->
-
-    <!-- Description -->
-    <section class="background-grey">
-        <div class="container-fluid container-section">
-            <div class="row">
-                <div class="col-12 mx-auto mt-3 mb-3 col-md-10">
-                    <div class="content-bubble-no-border content-bubble-text">
-                        <span>Group sessions with Kind Soul Yoga are a great way to improve your practice and connect with other yogis. Due to COVID-19, all classes are currently online and take place over Zoom - if you are interested in joining us for a group session please sign up to the KSY mailing list to receive the most up to date Zoom meeting links.</span>
-                        <form class="form-general-form">
-                            <div class="form-row justify-content-center">
-                                <div class="form-group col-12">
-                                    <input type="text" name="name" class="form-control" placeholder="Name" title="For name">
+            <div class="d-none d-sm-block">
+                <ul class="list-inline" id="social-links-nav">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com/sarah.gallacher.33">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/kindsoulyoga/">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /Navbar -->
+        <!-- Hero Image -->
+        <header class="container-fluid container-hero">
+            <div class="hero-image" id="hero-image-group"></div>
+            <span class="sr-only">Sarah teaching group yoga class</span>
+            <div class="hero-image-overlay">
+                <h1>Group sessions</h1>
+            </div>
+        </header>
+        <!-- /Hero Image -->
+        <!-- Description -->
+        <section class="background-grey">
+            <div class="container-fluid container-section">
+                <div class="row">
+                    <div class="col-12 mx-auto mt-3 mb-3 col-md-10">
+                        <div class="content-bubble-no-border content-bubble-text">
+                            <span>Group sessions with Kind Soul Yoga are a great way to improve your practice and connect with other yogis. Due to COVID-19, all classes are currently online and take place over Zoom - if you are interested in joining us for a group session please sign up to the KSY mailing list to receive the most up to date Zoom meeting links.</span>
+                            <form class="form-general-form">
+                                <div class="form-row justify-content-center">
+                                    <div class="form-group col-12">
+                                        <input type="text" name="name" class="form-control" placeholder="Name" title="For name">
+                                    </div>
+                                        <div class="form-group col-12">
+                                            <input type="email" name="email" id="email" class="form-control" placeholder="Email" title="For email">
+                                        </div>
+                                        <button class="form-control form-button col-6" type="submit">SEND</button>
                                 </div>
-                                <div class="form-group col-12">
-                                    <input type="email" name="email" id="email" class="form-control" placeholder="Email" title="For email">
-                                </div>
-                                <button class="form-control form-button col-6" type="submit">SEND</button>
+                            </form>
+                            <span>Please join each class 5 minutes before the start time and make sure you have a bottle of water to stay hydrated. Wear loose, comfortable clothing and make sure the area around you is clear.<br><br>So come along and let's practice, improve and learn!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Description -->
+        <!-- Calendar -->
+        <section class="background-white">
+            <div class="container-fluid container-section container-section-grow-md container-section-shrink-lg">
+                <div class="row">
+                    <!-- Calendar - 1 - Text -->
+                    <div class="col-12 mx-auto px-0 mt-3 col-md-8">
+                        <h2 class="h2-title-1 h2-title-border">
+                            <i class="far fa-calendar-alt"></i>
+                            <span class="sr-only">Calendar</span>
+                            Schedule
+                        </h2>
+                    </div>
+                    <div class="col-12 mx-auto px-0 mt-3 col-sm-10">
+                        <h4 class="h4-title-1 h4-title-1-border">
+                            All classes are free but if you've found them useful or enjoyable please consider donating a
+                            small amount using the links on the class descriptions.
+                        </h4>
+                    </div>
+                    <div class="col-12 mx-auto mt-3 col-md-7 col-xl-8">
+                        <div class="content-bubble">
+                            <h3 class="d-sm-none h3-title-1 mt-2 mb-2">Mondays<br>7am - 830am</h3>
+                            <h3 class="d-none d-sm-block h3-title-1 mt-2 mb-2">Mondays | 7am - 830am</h3>
+                            <h3 class="h3-title-2 mt-2 mb-2">Morning power blast</h3>
+                            <div>
+                                <ul class="list-inline book-group-classes-icons">
+                                    <li class="list-inline-item">
+                                        <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                                        <span class="sr-only">Heartbeat</span>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fa fa-fire" aria-hidden="true"></i>
+                                        <span class="sr-only">Fire</span>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-thermometer-full" aria-hidden="true"></i>
+                                        <span class="sr-only">Thermometer - full</span>
+                                    </li>
+                                </ul>
                             </div>
-                        </form>
-                        <span>Please join each class 5 minutes before the start time and make sure you have a bottle of water to stay hydrated. Wear loose, comfortable clothing and make sure the area around you is clear.<br><br>So come along and let's practice, improve and learn!</span>
+                            <div class="book-group-schedule-description content-bubble-text">
+                                <span>Blast away those Monday morning cobwebs with 90 minutes of super stretching!</span>
+                            </div>
+                            <a target="_blank" href="https://www.paypal.com/paypalme/yogasarahG" role="button"
+                                class="btn btn-outline-primary btn-outline-primary-large mb-2">
+                                <span>Donate</span>
+                            </a>
+                        </div>
                     </div>
+                    <!-- /Calendar - 1 - Text -->
+                    <!-- Calendar - 1 - Picture -->
+                    <div class="d-none p-0 d-md-block col-md-5 mt-md-4 col-xl-4">
+                        <div class="img-container-circle-md mt-2">
+                            <img id="book-group-classes-picture-1" src="assets/images/home-cta-1.jpg" alt="Sarah doing half backward bend in garden">
+                        </div>
+                    </div>
+                    <!-- /Calendar - 1 - Picture -->
+                    <!-- Calendar - 2 - Picture -->
+                    <div class="d-none p-0 d-md-block col-md-5 mt-md-4 col-xl-4">
+                        <div class="img-container-circle-md mt-2">
+                            <img id="book-group-classes-picture-2" src="assets/images/blog-entry-5-picture-1.jpg" alt="Sarah doing side stretch in garden">
+                        </div>
+                    </div>
+                    <!-- /Calendar - 2 - Picture -->
+                    <!-- Calendar - 2 - Text -->
+                    <div class="col-12 mx-auto mt-3 col-md-7 col-xl-8">
+                        <div class="content-bubble">
+                            <h3 class="d-sm-none h3-title-1 mt-2 mb-2">Tuesdays<br>11am - 12pm</h3>
+                            <h3 class="d-none d-sm-block h3-title-1 mt-2 mb-2">Tuesdays | 11am - 12pm</h3>
+                            <h3 class="h3-title-2 mt-2 mb-2">Nuturing flow</h3>
+                            <div>
+                                <ul class="list-inline book-group-classes-icons">
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-yin-yang" aria-hidden="true"></i>
+                                        <span class="sr-only">Yin yang</span>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-feather-alt" aria-hidden="true"></i>
+                                        <span class="sr-only">Feather</span>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-thermometer-half" aria-hidden="true"></i>
+                                        <span class="sr-only">Thermometer - half full</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="book-group-schedule-description content-bubble-text">
+                                <span>Settle in to your week with a soothing 60 minute session of relaxing, light poses.</span>
+                            </div>
+                            <a target="_blank" href="https://www.paypal.com/paypalme/yogasarahG" role="button"
+                                class="btn btn-outline-primary btn-outline-primary-large mb-2">
+                                <span>Donate</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /Calendar - 2 - Text -->
+                    <!-- Calendar - 3 - Text -->
+                    <div class="col-12 mx-auto mt-3 col-md-7 col-xl-8">
+                        <div class="content-bubble">
+                            <h3 class="d-sm-none h3-title-1 mt-2 mb-2">Thursdays<br>7pm - 830pm</h3>
+                            <h3 class="d-none d-sm-block h3-title-1 mt-2 mb-2">Thursdays | 7pm - 830pm</h3>
+                            <h3 class="h3-title-2 mt-2 mb-2">Bums and tums</h3>
+                            <div>
+                                <ul class="list-inline book-group-classes-icons">
+                                    <li class="list-inline-item">
+                                        <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                                        <span class="sr-only">Heartbeat</span>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fa fa-fire" aria-hidden="true"></i>
+                                        <span class="sr-only">Fire</span>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-thermometer-full" aria-hidden="true"></i>
+                                        <span class="sr-only">Thermometer - full</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="book-group-schedule-description content-bubble-text">
+                                <span>Finish off your Thursday and get ready for the weekend with this revitalising workout!</span>
+                            </div>
+                            <a target="_blank" href="https://www.paypal.com/paypalme/yogasarahG" role="button"
+                                class="btn btn-outline-primary btn-outline-primary-large mb-2">
+                                <span>Donate</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /Calendar - 3 - Text -->
+                    <!-- Calendar - 3 - Picture -->
+                    <div class="d-none p-0 d-md-block col-md-5 mt-md-4 col-xl-4">
+                        <div class="img-container-circle-md mt-2">
+                            <img id="book-group-classes-picture-3" src="assets/images/home-cta-2.jpg" alt="Sarah doing three quarter backward bend in garden">
+                        </div>
+                    </div>
+                    <!-- /Calendar - 3 - Picture -->
+                    <!-- Calendar - 4 - Picture -->
+                    <div class="d-none p-0 d-md-block col-md-5 mt-md-4 col-xl-4">
+                        <div class="img-container-circle-md mt-2">
+                            <img id="book-group-classes-picture-4" src="assets/images/blog-entry-5-picture-2.jpg" alt="Sarah doing toe stand in garden">
+                        </div>
+                    </div>
+                    <!-- /Calendar - 4 - Picture -->
+                    <!-- Calendar - 4 - Text -->
+                    <div class="col-12 mx-auto mt-3 col-md-7 col-xl-8">
+                        <div class="content-bubble">
+                            <h3 class="d-sm-none h3-title-1 mt-2 mb-2">Saturdays<br>7pm - 830pm</h3>
+                            <h3 class="d-none d-sm-block h3-title-1 mt-2 mb-2">Saturdays | 7pm - 830pm</h3>
+                            <h3 class="h3-title-2 mt-2 mb-2">Candlelit yin</h3>
+                            <div>
+                                <ul class="list-inline book-group-classes-icons">
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-yin-yang" aria-hidden="true"></i>
+                                        <span class="sr-only">Yin yang</span>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-charging-station" aria-hidden="true"></i>
+                                        <span class="sr-only">Battery charging station</span>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-thermometer-half" aria-hidden="true"></i>
+                                        <span class="sr-only">Thermometer - half full</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="book-group-schedule-description content-bubble-text">
+                                <span>Find your weekend inner peace and recharge with 90 minutes of candlelit mindfulness.</span>
+                            </div>
+                            <a target="_blank" href="https://www.paypal.com/paypalme/yogasarahG"
+                                role="button"
+                                class="btn btn-outline-primary btn-outline-primary-large mb-2">
+                                <span>Donate</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /Calendar - 4 - Text -->
+                    <!-- Calendar - 5 - Text -->
+                    <div class="col-12 mx-auto mt-3 mb-3 col-md-7 col-xl-8">
+                        <div class="content-bubble">
+                            <h3 class="d-sm-none h3-title-1 mt-2 mb-2">Sundays<br>9am - 1030am</h3>
+                            <h3 class="d-none d-sm-block h3-title-1 mt-2 mb-2">Sundays | 9am - 1030am</h3>
+                            <h3 class="h3-title-2 mt-2 mb-2">Hot Vinyasa flow</h3>
+                            <div>
+                                <ul class="list-inline book-group-classes-icons">
+                                    <li class="list-inline-item">
+                                        <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                                        <span class="sr-only">Heartbeat</span>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-dumbbell" aria-hidden="true"></i>
+                                        <span class="sr-only">Dumbbell</span>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <i class="fas fa-thermometer-three-quarters" aria-hidden="true"></i>
+                                        <span class="sr-only">Thermometer - three quarters full</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="book-group-schedule-description content-bubble-text">
+                                <span>Develop your practice with 90 minutes of postures focusing on balance and strength.</span>
+                            </div>
+                            <a target="_blank" href="https://www.paypal.com/paypalme/yogasarahG"
+                                role="button"
+                                class="btn btn-outline-primary btn-outline-primary-large mb-2">
+                                <span>Donate</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /Calendar - 5 - Text -->
+                    <!-- Calendar - 5 - Picture -->
+                    <div class="d-none p-0 d-md-block col-md-5 mt-md-4 col-xl-4">
+                        <div class="img-container-circle-md mt-2">
+                            <img id="book-group-classes-picture-5" src="assets/images/home-cta-3.jpg" alt="Sarah doing full backward bend in garden">
+                        </div>
+                    </div>
+                    <!-- /Calendar - 5 - Picture -->
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- /Description -->
-
-    <!-- Calendar -->
-    <section class="background-white">
-        <div class="container-fluid container-section container-section-grow-md container-section-shrink-lg">
-            <div class="row">
-                <div class="col-12 mx-auto px-0 mt-3 col-md-8">
-                    <h2 class="h2-title-1 h2-title-border">
-                        <i class="far fa-calendar-alt"></i>
-                        <span class="sr-only">Calendar</span> 
-                        Schedule
-                    </h2>
+        </section>
+        <!-- /Calendar -->
+        <!-- Footer -->
+        <footer class="container-fluid container-footer">
+            <div class="row" id="footer-content">
+                <div class="col-12 order-3 col-lg-4 order-lg-1">
+                    <span>07712345678</span>
                 </div>
-                <div class="col-12 mx-auto px-0 mt-3 col-sm-10">
-                    <h4 class="h4-title-1 h4-title-1-border">
-                        All classes are free but if you've found them useful or enjoyable please consider donating a small amount using the links on the class descriptions.
-                    </h4>
+                <div class="col-12 order-1 col-lg-4 order-lg-2">
+                    <span>Kind Soul Yoga | Sarah Gallacher</span>
                 </div>
-                <div class="col-12 mx-auto mt-3 col-md-7 col-xl-8">
-                    <div class="content-bubble">
-                        <h3 class="d-sm-none h3-title-1 mt-2 mb-2">Mondays<br>7am - 830am</h3>
-                        <h3 class="d-none d-sm-block h3-title-1 mt-2 mb-2">Mondays | 7am - 830am</h3>
-                        <h3 class="h3-title-2 mt-2 mb-2">Morning power blast</h3>
-                        <div>
-                            <ul class="list-inline book-group-classes-icons">
-                            <li class="list-inline-item">
-                                <i class="fa fa-heartbeat" aria-hidden="true"></i>
-                                <span class="sr-only">Heartbeat</span>
-                            </li>
-                            <li class="list-inline-item">
-                                <i class="fa fa-fire" aria-hidden="true"></i>
-                                <span class="sr-only">Fire</span>
-                            </li>
-                            <li class="list-inline-item">
-                                <i class="fas fa-thermometer-full" aria-hidden="true"></i>
-                                <span class="sr-only">Thermometer - full</span>
-                            </li>
-                            </ul>
-                        </div>
-                        <div class="book-group-schedule-description content-bubble-text">
-                            <span>Blast away those Monday morning cobwebs with 90 minutes of super stretching!</span>
-                        </div>
-                        <a target="_blank" href="https://www.paypal.com/paypalme/yogasarahG" role="button" class="btn btn-outline-primary btn-outline-primary-large mb-2">
-                            <span>Donate</span>
-                        </a>
-                    </div>
+                <div class="col-12 order-2 col-lg-4 order-lg-3">
+                    <span>sgallacher@kslyoga.com</span>
                 </div>
-
-                <div class="d-none p-0 d-md-block col-md-5 mt-md-4 col-xl-4">
-                    <div class="img-container-circle-md mt-2">
-                        <div id="book-group-classes-picture-1">
-                        <span class="sr-only">Sarah doing half backward bend in garden</span>
-                        </div>
-                  </div>
+                <div class="col-12 order-4 d-sm-none">
+                    <ul class="list-inline" id="social-links-footer">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.facebook.com/sarah.gallacher.33">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.instagram.com/kindsoulyoga/">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-
-                <div class="d-none p-0 d-md-block col-md-5 mt-md-4 col-xl-4">
-                    <div class="img-container-circle-md mt-2">
-                        <div id="book-group-classes-picture-2">
-                        <span class="sr-only">Sarah doing side stretch in garden</span>
-                        </div>
-                  </div>
-                </div>
-
-                <div class="col-12 mx-auto mt-3 col-md-7 col-xl-8">
-                    <div class="content-bubble">
-                        <h3 class="d-sm-none h3-title-1 mt-2 mb-2">Tuesdays<br>11am - 12pm</h3>
-                        <h3 class="d-none d-sm-block h3-title-1 mt-2 mb-2">Tuesdays | 11am - 12pm</h3>
-                        <h3 class="h3-title-2 mt-2 mb-2">Nuturing flow</h3>
-                        <div>
-                            <ul class="list-inline book-group-classes-icons">
-                            <li class="list-inline-item">
-                                <i class="fas fa-yin-yang" aria-hidden="true"></i>
-                                <span class="sr-only">Yin yang</span>
-                            </li>
-                            <li class="list-inline-item">
-                                <i class="fas fa-feather-alt" aria-hidden="true"></i>
-                                <span class="sr-only">Feather</span>
-                            </li>
-                            <li class="list-inline-item">
-                                <i class="fas fa-thermometer-half" aria-hidden="true"></i>
-                                <span class="sr-only">Thermometer - half full</span>
-                            </li>
-                            </ul>
-                        </div>
-                        <div class="book-group-schedule-description content-bubble-text">
-                            <span>Settle in to your week with a soothing 60 minute session of relaxing, light poses.</span>
-                        </div>
-                        <a target="_blank" href="https://www.paypal.com/paypalme/yogasarahG" role="button" class="btn btn-outline-primary btn-outline-primary-large mb-2">
-                            <span>Donate</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-12 mx-auto mt-3 col-md-7 col-xl-8">
-                    <div class="content-bubble">
-                        <h3 class="d-sm-none h3-title-1 mt-2 mb-2">Thursdays<br>7pm - 830pm</h3>
-                        <h3 class="d-none d-sm-block h3-title-1 mt-2 mb-2">Thursdays | 7pm - 830pm</h3>
-                        <h3 class="h3-title-2 mt-2 mb-2">Bums and tums</h3>
-                        <div>
-                            <ul class="list-inline book-group-classes-icons">
-                            <li class="list-inline-item">
-                                <i class="fa fa-heartbeat" aria-hidden="true"></i>
-                                <span class="sr-only">Heartbeat</span>
-                            </li>
-                            <li class="list-inline-item">
-                                <i class="fa fa-fire" aria-hidden="true"></i>
-                                <span class="sr-only">Fire</span>
-                            </li>
-                            <li class="list-inline-item">
-                                <i class="fas fa-thermometer-full" aria-hidden="true"></i>
-                                <span class="sr-only">Thermometer - full</span>
-                            </li>
-                            </ul>
-                        </div>
-                        <div class="book-group-schedule-description content-bubble-text">
-                            <span>Finish off your Thursday and get ready for the weekend with this revitalising workout!</span>
-                        </div>
-                        <a target="_blank" href="https://www.paypal.com/paypalme/yogasarahG" role="button" class="btn btn-outline-primary btn-outline-primary-large mb-2">
-                            <span>Donate</span>
-                        </a>
-                    </div>
-                </div>
-                
-                 <div class="d-none p-0 d-md-block col-md-5 mt-md-4 col-xl-4">
-                    <div class="img-container-circle-md mt-2">
-                        <div id="book-group-classes-picture-3">
-                        <span class="sr-only">Sarah doing three quarter backward bend in garden</span>
-                        </div>
-                  </div>
-                </div>
-
-                <div class="d-none p-0 d-md-block col-md-5 mt-md-4 col-xl-4">
-                    <div class="img-container-circle-md mt-2">
-                        <div id="book-group-classes-picture-4">
-                        <span class="sr-only">Sarah doing toe stand in garden</span>
-                        </div>
-                  </div>
-                </div>
-
-                <div class="col-12 mx-auto mt-3 col-md-7 col-xl-8">
-                    <div class="content-bubble">
-                        <h3 class="d-sm-none h3-title-1 mt-2 mb-2">Saturdays<br>7pm - 830pm</h3>
-                        <h3 class="d-none d-sm-block h3-title-1 mt-2 mb-2">Saturdays | 7pm - 830pm</h3>
-                        <h3 class="h3-title-2 mt-2 mb-2">Candlelit yin</h3>
-                        <div>
-                            <ul class="list-inline book-group-classes-icons">
-                            <li class="list-inline-item">
-                                <i class="fas fa-yin-yang" aria-hidden="true"></i>
-                                <span class="sr-only">Yin yang</span>
-                            </li>
-                            <li class="list-inline-item">
-                                <i class="fas fa-charging-station" aria-hidden="true"></i>
-                                <span class="sr-only">Battery charging station</span>
-                            </li>
-                            <li class="list-inline-item">
-                                <i class="fas fa-thermometer-half" aria-hidden="true"></i>
-                                <span class="sr-only">Thermometer - half full</span>
-                            </li>
-                            </ul>
-                        </div>
-                        <div class="book-group-schedule-description content-bubble-text">
-                            <span>Find your weekend inner peace and recharge with 90 minutes of candlelit mindfulness.</span>
-                        </div>
-                        <a target="_blank" href="https://www.paypal.com/paypalme/yogasarahG" role="button" class="btn btn-outline-primary btn-outline-primary-large mb-2">
-                            <span>Donate</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-12 mx-auto mt-3 mb-3 col-md-7 col-xl-8">
-                    <div class="content-bubble">
-                        <h3 class="d-sm-none h3-title-1 mt-2 mb-2">Sundays<br>9am - 1030am</h3>
-                        <h3 class="d-none d-sm-block h3-title-1 mt-2 mb-2">Sundays | 9am - 1030am</h3>
-                        <h3 class="h3-title-2 mt-2 mb-2">Hot Vinyasa flow</h3>
-                        <div>
-                            <ul class="list-inline book-group-classes-icons">
-                            <li class="list-inline-item">
-                                <i class="fa fa-heartbeat" aria-hidden="true"></i>
-                                <span class="sr-only">Heartbeat</span>
-                            </li>
-                            <li class="list-inline-item">
-                                <i class="fas fa-dumbbell" aria-hidden="true"></i>
-                                <span class="sr-only">Dumbbell</span>
-                            </li>
-                            <li class="list-inline-item">
-                                <i class="fas fa-thermometer-three-quarters" aria-hidden="true"></i>
-                                <span class="sr-only">Thermometer - three quarters full</span>
-                            </li>
-                            </ul>
-                        </div>
-                        <div class="book-group-schedule-description content-bubble-text">
-                            <span>Develop your practice with 90 minutes of postures focusing on balance and strength.</span>
-                        </div>
-                        <a target="_blank" href="https://www.paypal.com/paypalme/yogasarahG" role="button" class="btn btn-outline-primary btn-outline-primary-large mb-2">
-                            <span>Donate</span>
-                        </a>
-                    </div>
-                </div>
-
-                 <div class="d-none p-0 d-md-block col-md-5 mt-md-4 col-xl-4">
-                    <div class="img-container-circle-md mt-2">
-                        <div id="book-group-classes-picture-5">
-                        <span class="sr-only">Sarah doing full backward bend in garden</span>
-                        </div>
-                  </div>
-                </div>
-
             </div>
-        </div>
-    </section>
-    <!-- /Calendar -->
-
-    <!-- Footer -->
-    <footer class="container-fluid container-footer">
-      <div class="row" id="footer-content">
-        <div class="col-12 order-3 col-lg-4 order-lg-1">
-          <span>07712345678</span>
-        </div>
-        <div class="col-12 order-1 col-lg-4 order-lg-2">
-          <span>Kind Soul Yoga | Sarah Gallacher</span>
-        </div>
-        <div class="col-12 order-2 col-lg-4 order-lg-3">
-          <span>sgallacher@kslyoga.com</span>
-        </div>
-        <div class="col-12 order-4 d-sm-none">
-          <ul class="list-inline" id="social-links-footer">
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.facebook.com/sarah.gallacher.33">
-                <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.instagram.com/kindsoulyoga/">
-                <i class="fab fa-instagram" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-    <!-- /Footer -->
-
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        </footer>
+        <!-- /Footer -->
+        <!-- Javascript -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+        <!-- /Javascript -->
+    </body>
+    <!-- /Body -->
 </html>

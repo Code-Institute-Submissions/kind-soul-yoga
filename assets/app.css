@@ -557,6 +557,12 @@ body {
 
 
 /*----------Footer - MQs*/
+@media (max-width: 576px) {
+    .container-footer {
+        font-size: 0.95em;
+    }
+}
+
 @media (min-width: 576px) {
     .container-footer {
         height: 75px;
@@ -699,47 +705,42 @@ body {
 }
 
 #book-group-classes-picture-1 {
-    background: url("./images/home-cta-1.jpg");
-    background-position: 50% 80%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 50% 80%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
 #book-group-classes-picture-2 {
-    background: url("./images/blog-entry-5-picture-1.jpg");
-    background-position: 50% 80%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 50% 80%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
 #book-group-classes-picture-3 {
-    background: url("./images/home-cta-2.jpg");
-    background-position: 30% 45%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 30% 45%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
 #book-group-classes-picture-4 {
-    background: url("./images/blog-entry-5-picture-2.jpg");
-    background-position: 50% 75%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 50% 75%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
 #book-group-classes-picture-5 {
-    background: url("./images/home-cta-3.jpg");
-    background-position: 50% 75%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-position: 50% 75%;
+    object-fit: cover;
     height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
