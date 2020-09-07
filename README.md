@@ -31,6 +31,7 @@ Click [here](https://github.com/zoet24/kind-soul-yoga) to view the Github reposi
 - [Technologies Used](#technologies-used)
     - [Languages and frameworks](#languages-and-frameworks)
     - [Additional tools used](#additional-tools-used)
+- [Git Commit Messages](#git-commit-messages)
 - [Testing](#testing)
     - [Testing user stories](#testing-user-stories)
         - [Testing - Project stakeholder](#testing---project-stakeholder)
@@ -197,6 +198,27 @@ KSY final website for mobile:
 - **[W3C Markup Validation Service](https://validator.w3.org/):** I used this to test the validity of my HTML5 code.
 - **[WAVE - Web Accessibility Evaluation Tool](https://wave.webaim.org/):** I used this to test the accessibility of my website.
 - **[Word to Markdown Converter](https://word2md.com/):** I used this to convert my README Word document into Markdown format.
+
+## Git Commit Messages
+
+Over the course of this project, I developed my own format of writing git commit messages. It took me a little while to establish the convention that I wanted to use, so the messages at the beginning of the project are not consistent with the more recent messages. The convention that I will continue using for my next three projects will follow these rules:
+
+- Comments should be written in the past tense.
+- Pages should be referred to with their full name (ie. index.html instead of just index).
+- Bug fixes will be denoted by 'Bug:' at the start of the message.
+
+I've included my 10 most recent git commit messages below to demonstrate the syntax.
+
+- **7dbe1ba** Bug: Fixed h3 and h4 border visibility and spacing errors on index.html
+- **3f75b12** Added separate css folder for app.css and updated all pages
+- **98e4057** Beautified code on contact.html page
+- **b8f3047** Changed pictures from background images to img elements to improve accessibility and beautified code on blog.html page
+- **a252b4e** Changed pictures from background images to img elements to improve accessibility and beautified code on book-1-2-1.html page
+- **b4a803d** Changed pictures from background images to img elements to improve accessibility and beautified code on book-group.html page
+- **026f70d** Changed pictures from background images to img elements to improve accessibility and beautified code on index.html page
+- **8887f19** Final additions to readme,md
+- **760f0da** Added images of website development to readme,md
+- **f2cb959** Added more to readme,md
 
 ## Testing
 
